@@ -1,0 +1,63 @@
+[1.063s] Invoking command in '/home/bok/multitb_ws/build/get_data': PYTHONPATH=/home/bok/multitb_ws/build/get_data/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bok/multitb_ws/install/get_data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/bok/multitb_ws/build/get_data/build
+[1.477s] running develop
+[1.477s] /home/bok/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.477s] !!
+[1.477s] 
+[1.477s]         ********************************************************************************
+[1.477s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.478s]         Instead, use pypa/build, pypa/installer or other
+[1.478s]         standards-based tools.
+[1.478s] 
+[1.478s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.478s]         ********************************************************************************
+[1.478s] 
+[1.478s] !!
+[1.478s]   easy_install.initialize_options(self)
+[1.812s] Removing /home/bok/multitb_ws/install/get_data/lib/python3.10/site-packages/get-data.egg-link (link to .)
+[1.858s] Invoked command in '/home/bok/multitb_ws/build/get_data' returned '0': PYTHONPATH=/home/bok/multitb_ws/build/get_data/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bok/multitb_ws/install/get_data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/bok/multitb_ws/build/get_data/build
+[1.859s] Invoking command in '/home/bok/multitb_ws/src/get_data': PYTHONPATH=/home/bok/multitb_ws/build/get_data/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bok/multitb_ws/install/get_data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/get_data build --build-base /home/bok/multitb_ws/build/get_data/build install --record /home/bok/multitb_ws/build/get_data/install.log --single-version-externally-managed install_data --force
+[2.208s] running egg_info
+[2.233s] writing ../../build/get_data/get_data.egg-info/PKG-INFO
+[2.234s] writing dependency_links to ../../build/get_data/get_data.egg-info/dependency_links.txt
+[2.235s] writing entry points to ../../build/get_data/get_data.egg-info/entry_points.txt
+[2.235s] writing requirements to ../../build/get_data/get_data.egg-info/requires.txt
+[2.235s] writing top-level names to ../../build/get_data/get_data.egg-info/top_level.txt
+[2.287s] reading manifest file '../../build/get_data/get_data.egg-info/SOURCES.txt'
+[2.288s] writing manifest file '../../build/get_data/get_data.egg-info/SOURCES.txt'
+[2.289s] running build
+[2.289s] running build_py
+[2.289s] copying get_data/yolo.py -> /home/bok/multitb_ws/build/get_data/build/lib/get_data
+[2.289s] copying get_data/thief_spawn.py -> /home/bok/multitb_ws/build/get_data/build/lib/get_data
+[2.290s] copying get_data/get_data.py -> /home/bok/multitb_ws/build/get_data/build/lib/get_data
+[2.290s] copying get_data/qt_update.py -> /home/bok/multitb_ws/build/get_data/build/lib/get_data
+[2.290s] copying get_data/__init__.py -> /home/bok/multitb_ws/build/get_data/build/lib/get_data
+[2.290s] copying get_data/tempCodeRunnerFile.py -> /home/bok/multitb_ws/build/get_data/build/lib/get_data
+[2.291s] running install
+[2.297s] running install_lib
+[2.321s] creating /home/bok/multitb_ws/install/get_data/lib/python3.10/site-packages/get_data
+[2.321s] copying /home/bok/multitb_ws/build/get_data/build/lib/get_data/yolo.py -> /home/bok/multitb_ws/install/get_data/lib/python3.10/site-packages/get_data
+[2.321s] copying /home/bok/multitb_ws/build/get_data/build/lib/get_data/thief_spawn.py -> /home/bok/multitb_ws/install/get_data/lib/python3.10/site-packages/get_data
+[2.322s] copying /home/bok/multitb_ws/build/get_data/build/lib/get_data/camera.py -> /home/bok/multitb_ws/install/get_data/lib/python3.10/site-packages/get_data
+[2.322s] copying /home/bok/multitb_ws/build/get_data/build/lib/get_data/get_data.py -> /home/bok/multitb_ws/install/get_data/lib/python3.10/site-packages/get_data
+[2.322s] copying /home/bok/multitb_ws/build/get_data/build/lib/get_data/qt_update.py -> /home/bok/multitb_ws/install/get_data/lib/python3.10/site-packages/get_data
+[2.322s] copying /home/bok/multitb_ws/build/get_data/build/lib/get_data/__init__.py -> /home/bok/multitb_ws/install/get_data/lib/python3.10/site-packages/get_data
+[2.322s] copying /home/bok/multitb_ws/build/get_data/build/lib/get_data/tempCodeRunnerFile.py -> /home/bok/multitb_ws/install/get_data/lib/python3.10/site-packages/get_data
+[2.323s] byte-compiling /home/bok/multitb_ws/install/get_data/lib/python3.10/site-packages/get_data/yolo.py to yolo.cpython-310.pyc
+[2.323s] byte-compiling /home/bok/multitb_ws/install/get_data/lib/python3.10/site-packages/get_data/thief_spawn.py to thief_spawn.cpython-310.pyc
+[2.324s] byte-compiling /home/bok/multitb_ws/install/get_data/lib/python3.10/site-packages/get_data/camera.py to camera.cpython-310.pyc
+[2.328s] byte-compiling /home/bok/multitb_ws/install/get_data/lib/python3.10/site-packages/get_data/get_data.py to get_data.cpython-310.pyc
+[2.329s] byte-compiling /home/bok/multitb_ws/install/get_data/lib/python3.10/site-packages/get_data/qt_update.py to qt_update.cpython-310.pyc
+[2.331s] byte-compiling /home/bok/multitb_ws/install/get_data/lib/python3.10/site-packages/get_data/__init__.py to __init__.cpython-310.pyc
+[2.331s] byte-compiling /home/bok/multitb_ws/install/get_data/lib/python3.10/site-packages/get_data/tempCodeRunnerFile.py to tempCodeRunnerFile.cpython-310.pyc
+[2.331s] running install_data
+[2.331s] copying resource/get_data -> /home/bok/multitb_ws/install/get_data/share/ament_index/resource_index/packages
+[2.332s] copying package.xml -> /home/bok/multitb_ws/install/get_data/share/get_data
+[2.332s] running install_egg_info
+[2.359s] Copying ../../build/get_data/get_data.egg-info to /home/bok/multitb_ws/install/get_data/lib/python3.10/site-packages/get_data-0.0.0-py3.10.egg-info
+[2.360s] running install_scripts
+[2.555s] Installing camera script to /home/bok/multitb_ws/install/get_data/lib/get_data
+[2.555s] Installing get_data script to /home/bok/multitb_ws/install/get_data/lib/get_data
+[2.555s] Installing qt_update script to /home/bok/multitb_ws/install/get_data/lib/get_data
+[2.555s] Installing thief_spawn script to /home/bok/multitb_ws/install/get_data/lib/get_data
+[2.556s] writing list of installed files to '/home/bok/multitb_ws/build/get_data/install.log'
+[2.589s] Invoked command in '/home/bok/multitb_ws/src/get_data' returned '0': PYTHONPATH=/home/bok/multitb_ws/build/get_data/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bok/multitb_ws/install/get_data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/get_data build --build-base /home/bok/multitb_ws/build/get_data/build install --record /home/bok/multitb_ws/build/get_data/install.log --single-version-externally-managed install_data --force

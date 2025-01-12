@@ -1,0 +1,57 @@
+/home/bok/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+writing ../../build/project/project.egg-info/PKG-INFO
+writing dependency_links to ../../build/project/project.egg-info/dependency_links.txt
+writing entry points to ../../build/project/project.egg-info/entry_points.txt
+writing requirements to ../../build/project/project.egg-info/requires.txt
+writing top-level names to ../../build/project/project.egg-info/top_level.txt
+reading manifest file '../../build/project/project.egg-info/SOURCES.txt'
+writing manifest file '../../build/project/project.egg-info/SOURCES.txt'
+running build
+running build_py
+copying project/server_test.py -> /home/bok/ff_ws/build/project/build/lib/project
+copying project/control_tower_server.py -> /home/bok/ff_ws/build/project/build/lib/project
+copying project/calibresult.py -> /home/bok/ff_ws/build/project/build/lib/project
+copying project/control_tower.py -> /home/bok/ff_ws/build/project/build/lib/project
+copying project/camera.py -> /home/bok/ff_ws/build/project/build/lib/project
+copying project/tower_test.py -> /home/bok/ff_ws/build/project/build/lib/project
+copying project/inverse_test.py -> /home/bok/ff_ws/build/project/build/lib/project
+copying project/camera_test.py -> /home/bok/ff_ws/build/project/build/lib/project
+copying project/__init__.py -> /home/bok/ff_ws/build/project/build/lib/project
+copying project/aruco.py -> /home/bok/ff_ws/build/project/build/lib/project
+copying project/ttt.py -> /home/bok/ff_ws/build/project/build/lib/project
+copying project/tempCodeRunnerFile.py -> /home/bok/ff_ws/build/project/build/lib/project
+running install
+running install_lib
+copying /home/bok/ff_ws/build/project/build/lib/project/server_test.py -> /home/bok/ff_ws/install/project/lib/python3.10/site-packages/project
+copying /home/bok/ff_ws/build/project/build/lib/project/control_tower_server.py -> /home/bok/ff_ws/install/project/lib/python3.10/site-packages/project
+copying /home/bok/ff_ws/build/project/build/lib/project/calibresult.py -> /home/bok/ff_ws/install/project/lib/python3.10/site-packages/project
+copying /home/bok/ff_ws/build/project/build/lib/project/control_tower.py -> /home/bok/ff_ws/install/project/lib/python3.10/site-packages/project
+copying /home/bok/ff_ws/build/project/build/lib/project/camera.py -> /home/bok/ff_ws/install/project/lib/python3.10/site-packages/project
+copying /home/bok/ff_ws/build/project/build/lib/project/inverse_test.py -> /home/bok/ff_ws/install/project/lib/python3.10/site-packages/project
+copying /home/bok/ff_ws/build/project/build/lib/project/aruco.py -> /home/bok/ff_ws/install/project/lib/python3.10/site-packages/project
+copying /home/bok/ff_ws/build/project/build/lib/project/ttt.py -> /home/bok/ff_ws/install/project/lib/python3.10/site-packages/project
+copying /home/bok/ff_ws/build/project/build/lib/project/tempCodeRunnerFile.py -> /home/bok/ff_ws/install/project/lib/python3.10/site-packages/project
+byte-compiling /home/bok/ff_ws/install/project/lib/python3.10/site-packages/project/server_test.py to server_test.cpython-310.pyc
+byte-compiling /home/bok/ff_ws/install/project/lib/python3.10/site-packages/project/control_tower_server.py to control_tower_server.cpython-310.pyc
+byte-compiling /home/bok/ff_ws/install/project/lib/python3.10/site-packages/project/calibresult.py to calibresult.cpython-310.pyc
+byte-compiling /home/bok/ff_ws/install/project/lib/python3.10/site-packages/project/control_tower.py to control_tower.cpython-310.pyc
+byte-compiling /home/bok/ff_ws/install/project/lib/python3.10/site-packages/project/camera.py to camera.cpython-310.pyc
+byte-compiling /home/bok/ff_ws/install/project/lib/python3.10/site-packages/project/inverse_test.py to inverse_test.cpython-310.pyc
+byte-compiling /home/bok/ff_ws/install/project/lib/python3.10/site-packages/project/aruco.py to aruco.cpython-310.pyc
+byte-compiling /home/bok/ff_ws/install/project/lib/python3.10/site-packages/project/ttt.py to ttt.cpython-310.pyc
+byte-compiling /home/bok/ff_ws/install/project/lib/python3.10/site-packages/project/tempCodeRunnerFile.py to tempCodeRunnerFile.cpython-310.pyc
+running install_data
+copying resource/project -> /home/bok/ff_ws/install/project/share/ament_index/resource_index/packages
+copying package.xml -> /home/bok/ff_ws/install/project/share/project
+running install_egg_info
+removing '/home/bok/ff_ws/install/project/lib/python3.10/site-packages/project-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/project/project.egg-info to /home/bok/ff_ws/install/project/lib/python3.10/site-packages/project-0.0.0-py3.10.egg-info
+running install_scripts
+Installing camera script to /home/bok/ff_ws/install/project/lib/project
+Installing control_tower script to /home/bok/ff_ws/install/project/lib/project
+Installing server_test script to /home/bok/ff_ws/install/project/lib/project
+Installing sub script to /home/bok/ff_ws/install/project/lib/project
+Installing tower_test script to /home/bok/ff_ws/install/project/lib/project
+writing list of installed files to '/home/bok/ff_ws/build/project/install.log'

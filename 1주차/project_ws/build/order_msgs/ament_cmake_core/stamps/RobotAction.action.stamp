@@ -1,0 +1,8 @@
+# Goal
+int64 table_num
+---
+# Result
+bool result
+---
+# Feedback
+string[] delivery

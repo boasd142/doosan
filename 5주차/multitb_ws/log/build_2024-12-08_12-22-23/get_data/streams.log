@@ -1,0 +1,35 @@
+[1.086s] Invoking command in '/home/bok/multitb_ws/build/get_data': PYTHONPATH=/home/bok/multitb_ws/build/get_data/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bok/multitb_ws/install/get_data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/bok/multitb_ws/build/get_data/build --no-deps symlink_data --force
+[1.527s] running develop
+[1.528s] /home/bok/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.529s] !!
+[1.529s] 
+[1.529s]         ********************************************************************************
+[1.529s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.529s]         Instead, use pypa/build, pypa/installer or other
+[1.529s]         standards-based tools.
+[1.529s] 
+[1.529s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.530s]         ********************************************************************************
+[1.530s] 
+[1.530s] !!
+[1.530s]   easy_install.initialize_options(self)
+[1.867s] running egg_info
+[1.890s] writing get_data.egg-info/PKG-INFO
+[1.891s] writing dependency_links to get_data.egg-info/dependency_links.txt
+[1.891s] writing entry points to get_data.egg-info/entry_points.txt
+[1.892s] writing requirements to get_data.egg-info/requires.txt
+[1.892s] writing top-level names to get_data.egg-info/top_level.txt
+[1.944s] reading manifest file 'get_data.egg-info/SOURCES.txt'
+[1.946s] writing manifest file 'get_data.egg-info/SOURCES.txt'
+[1.972s] running build_ext
+[1.972s] Creating /home/bok/multitb_ws/install/get_data/lib/python3.10/site-packages/get-data.egg-link (link to .)
+[1.974s] Installing camera script to /home/bok/multitb_ws/install/get_data/lib/get_data
+[1.974s] Installing get_data script to /home/bok/multitb_ws/install/get_data/lib/get_data
+[1.974s] Installing qt_update script to /home/bok/multitb_ws/install/get_data/lib/get_data
+[1.974s] Installing thief_spawn script to /home/bok/multitb_ws/install/get_data/lib/get_data
+[1.975s] 
+[1.975s] Installed /home/bok/multitb_ws/build/get_data
+[1.975s] running symlink_data
+[1.975s] symbolically linking /home/bok/multitb_ws/build/get_data/resource/get_data -> /home/bok/multitb_ws/install/get_data/share/ament_index/resource_index/packages
+[1.976s] symbolically linking /home/bok/multitb_ws/build/get_data/package.xml -> /home/bok/multitb_ws/install/get_data/share/get_data
+[2.019s] Invoked command in '/home/bok/multitb_ws/build/get_data' returned '0': PYTHONPATH=/home/bok/multitb_ws/build/get_data/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bok/multitb_ws/install/get_data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/bok/multitb_ws/build/get_data/build --no-deps symlink_data --force

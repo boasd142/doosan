@@ -1,0 +1,558 @@
+[0.000000] (-) TimerEvent: {}
+[0.000525] (order_msgs) JobQueued: {'identifier': 'order_msgs', 'dependencies': OrderedDict()}
+[0.000982] (turtlebot) JobQueued: {'identifier': 'turtlebot', 'dependencies': OrderedDict([('order_msgs', '/home/bok/project_ws/install/order_msgs')])}
+[0.001014] (order_msgs) JobStarted: {'identifier': 'order_msgs'}
+[0.013972] (order_msgs) JobProgress: {'identifier': 'order_msgs', 'progress': 'cmake'}
+[0.014939] (order_msgs) JobProgress: {'identifier': 'order_msgs', 'progress': 'build'}
+[0.015919] (order_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bok/project_ws/build/order_msgs', '--', '-j4', '-l4'], 'cwd': '/home/bok/project_ws/build/order_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bok'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bok/project_ws/install/order_msgs/lib:/home/bok/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/bok/ros2_ws/install/ros_study_msgs/lib:/home/bok/ros2_ws/src/install/ros_study_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/bok'), ('OLDPWD', '/home/bok'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '851'), ('SYSTEMD_EXEC_PID', '1070'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '25800'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bok/project_ws/install:/home/bok/project_ws/src/install:/home/bok/turtlebot3_ws/install:/home/bok/ros2_ws/install:/home/bok/ros2_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bok'), ('JOURNAL_STREAM', '8:7759'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bok'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/bok/anaconda3/bin:/home/bok/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bok-900X5T:@/tmp/.ICE-unix/1050,unix/bok-900X5T:/tmp/.ICE-unix/1050'), ('INVOCATION_ID', '27b1ae03363d4d0aa27daa7e8a790bd0'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6RIKW2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '39'), ('AMENT_PREFIX_PATH', '/home/bok/project_ws/install/turtlebot:/home/bok/project_ws/install/order_msgs:/home/bok/project_ws/src/install/turtlebot:/home/bok/project_ws/src/install/order_msgs:/home/bok/turtlebot3_ws/install/turtlebot3:/home/bok/turtlebot3_ws/install/turtlebot3_teleop:/home/bok/turtlebot3_ws/install/turtlebot3_simulations:/home/bok/turtlebot3_ws/install/turtlebot3_bringup:/home/bok/turtlebot3_ws/install/turtlebot3_node:/home/bok/turtlebot3_ws/install/turtlebot3_navigation2:/home/bok/turtlebot3_ws/install/turtlebot3_fake_node:/home/bok/turtlebot3_ws/install/turtlebot3_example:/home/bok/turtlebot3_ws/install/turtlebot3_msgs:/home/bok/turtlebot3_ws/install/turtlebot3_gazebo:/home/bok/turtlebot3_ws/install/turtlebot3_description:/home/bok/turtlebot3_ws/install/turtlebot3_cartographer:/home/bok/turtlebot3_ws/install/ld08_driver:/home/bok/ros2_ws/install/ros_study_py:/home/bok/ros2_ws/install/ex_calculator:/home/bok/ros2_ws/install/ros_study_msgs:/home/bok/ros2_ws/install/py_pubsub:/home/bok/ros2_ws/src/install/ros_study_py:/home/bok/ros2_ws/src/install/ex_calculator:/home/bok/ros2_ws/src/install/ros_study_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:4c4376b0-7e45-4bbe-b41d-918c32fdf12b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bok/project_ws/build/order_msgs'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-02'), ('PYTHONPATH', '/home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages:/home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages:/home/bok/project_ws/src/install/turtlebot/lib/python3.10/site-packages:/home/bok/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/bok/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/bok/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/bok/ros2_ws/install/ros_study_py/lib/python3.10/site-packages:/home/bok/ros2_ws/install/ex_calculator/lib/python3.10/site-packages:/home/bok/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages:/home/bok/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/bok/ros2_ws/src/install/ros_study_py/lib/python3.10/site-packages:/home/bok/ros2_ws/src/install/ex_calculator/lib/python3.10/site-packages:/home/bok/ros2_ws/src/install/ros_study_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/bok/project_ws/install/order_msgs:/home/bok/project_ws/src/install/order_msgs:/home/bok/turtlebot3_ws/install/turtlebot3:/home/bok/turtlebot3_ws/install/turtlebot3_simulations:/home/bok/turtlebot3_ws/install/turtlebot3_bringup:/home/bok/turtlebot3_ws/install/turtlebot3_node:/home/bok/turtlebot3_ws/install/turtlebot3_navigation2:/home/bok/turtlebot3_ws/install/turtlebot3_fake_node:/home/bok/turtlebot3_ws/install/turtlebot3_msgs:/home/bok/turtlebot3_ws/install/turtlebot3_gazebo:/home/bok/turtlebot3_ws/install/turtlebot3_description:/home/bok/turtlebot3_ws/install/turtlebot3_cartographer:/home/bok/turtlebot3_ws/install/ld08_driver:/home/bok/ros2_ws/install/ros_study_msgs:/home/bok/ros2_ws/src/install/ros_study_msgs:/home/bok/project_ws/install/turtlebot:/home/bok/project_ws/src/install/turtlebot:/home/bok/turtlebot3_ws/install/turtlebot3_teleop:/home/bok/turtlebot3_ws/install/turtlebot3_example:/home/bok/ros2_ws/install/ros_study_py:/home/bok/ros2_ws/install/ex_calculator:/home/bok/ros2_ws/install/py_pubsub:/home/bok/ros2_ws/src/install/ros_study_py:/home/bok/ros2_ws/src/install/ex_calculator:/opt/ros/humble')]), 'shell': False}
+[0.051492] (order_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099790] (-) TimerEvent: {}
+[0.200088] (-) TimerEvent: {}
+[0.237311] (order_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.247496] (order_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.253946] (order_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.300178] (-) TimerEvent: {}
+[0.306767] (order_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.346329] (order_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.400285] (-) TimerEvent: {}
+[0.500805] (-) TimerEvent: {}
+[0.601082] (-) TimerEvent: {}
+[0.701364] (-) TimerEvent: {}
+[0.767539] (order_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.801484] (-) TimerEvent: {}
+[0.901736] (-) TimerEvent: {}
+[1.002076] (-) TimerEvent: {}
+[1.048560] (order_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.102206] (-) TimerEvent: {}
+[1.202576] (-) TimerEvent: {}
+[1.303090] (-) TimerEvent: {}
+[1.403400] (-) TimerEvent: {}
+[1.456662] (order_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.486037] (order_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.503502] (-) TimerEvent: {}
+[1.517995] (order_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.518195] (order_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.518305] (order_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.578537] (order_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.596387] (order_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.598256] (order_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.601402] (order_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.603572] (-) TimerEvent: {}
+[1.705800] (-) TimerEvent: {}
+[1.723623] (order_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.731644] (order_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/bok/project_ws/build/order_msgs\n'}
+[1.803141] (order_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.807602] (-) TimerEvent: {}
+[1.908110] (-) TimerEvent: {}
+[2.008409] (-) TimerEvent: {}
+[2.108711] (-) TimerEvent: {}
+[2.209035] (-) TimerEvent: {}
+[2.309314] (-) TimerEvent: {}
+[2.409596] (-) TimerEvent: {}
+[2.509859] (-) TimerEvent: {}
+[2.610169] (-) TimerEvent: {}
+[2.621468] (order_msgs) StdoutLine: {'line': b'[  2%] Built target order_msgs__cpp\n'}
+[2.664177] (order_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_order_msgs\n'}
+[2.682619] (order_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.710268] (-) TimerEvent: {}
+[2.810575] (-) TimerEvent: {}
+[2.910881] (-) TimerEvent: {}
+[3.011184] (-) TimerEvent: {}
+[3.111486] (-) TimerEvent: {}
+[3.211821] (-) TimerEvent: {}
+[3.312153] (-) TimerEvent: {}
+[3.348140] (order_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target order_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.370937] (order_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/order_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/order_msgs/action/detail/dds_fastrtps/robot_action__type_support.cpp.o\x1b[0m\n'}
+[3.412259] (-) TimerEvent: {}
+[3.512976] (-) TimerEvent: {}
+[3.613339] (-) TimerEvent: {}
+[3.713674] (-) TimerEvent: {}
+[3.814176] (-) TimerEvent: {}
+[3.914687] (-) TimerEvent: {}
+[4.015195] (-) TimerEvent: {}
+[4.115553] (-) TimerEvent: {}
+[4.172258] (order_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/order_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/order_msgs/srv/detail/dds_fastrtps/order__type_support.cpp.o\x1b[0m\n'}
+[4.215656] (-) TimerEvent: {}
+[4.316254] (-) TimerEvent: {}
+[4.416583] (-) TimerEvent: {}
+[4.516913] (-) TimerEvent: {}
+[4.617236] (-) TimerEvent: {}
+[4.632836] (order_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking CXX shared library liborder_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.717364] (-) TimerEvent: {}
+[4.740399] (order_msgs) StdoutLine: {'line': b'[ 12%] Built target order_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[4.753951] (order_msgs) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.817459] (-) TimerEvent: {}
+[4.917787] (-) TimerEvent: {}
+[5.018085] (-) TimerEvent: {}
+[5.118382] (-) TimerEvent: {}
+[5.218697] (-) TimerEvent: {}
+[5.319007] (-) TimerEvent: {}
+[5.324499] (order_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target order_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[5.341221] (order_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/order_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/order_msgs/action/detail/robot_action__type_support.cpp.o\x1b[0m\n'}
+[5.419119] (-) TimerEvent: {}
+[5.519436] (-) TimerEvent: {}
+[5.619782] (-) TimerEvent: {}
+[5.720120] (-) TimerEvent: {}
+[5.820457] (-) TimerEvent: {}
+[5.920805] (-) TimerEvent: {}
+[6.021128] (-) TimerEvent: {}
+[6.039789] (order_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/order_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/order_msgs/srv/detail/order__type_support.cpp.o\x1b[0m\n'}
+[6.121232] (-) TimerEvent: {}
+[6.221562] (-) TimerEvent: {}
+[6.321900] (-) TimerEvent: {}
+[6.422230] (-) TimerEvent: {}
+[6.476484] (order_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking CXX shared library liborder_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.522339] (-) TimerEvent: {}
+[6.576885] (order_msgs) StdoutLine: {'line': b'[ 23%] Built target order_msgs__rosidl_typesupport_introspection_cpp\n'}
+[6.622436] (-) TimerEvent: {}
+[6.722739] (-) TimerEvent: {}
+[6.823028] (-) TimerEvent: {}
+[6.923322] (-) TimerEvent: {}
+[6.960250] (order_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[6.961245] (order_msgs) StdoutLine: {'line': b'writing order_msgs.egg-info/PKG-INFO\n'}
+[6.961579] (order_msgs) StdoutLine: {'line': b'writing dependency_links to order_msgs.egg-info/dependency_links.txt\n'}
+[6.962136] (order_msgs) StdoutLine: {'line': b'writing top-level names to order_msgs.egg-info/top_level.txt\n'}
+[6.965698] (order_msgs) StdoutLine: {'line': b"reading manifest file 'order_msgs.egg-info/SOURCES.txt'\n"}
+[6.966570] (order_msgs) StdoutLine: {'line': b"writing manifest file 'order_msgs.egg-info/SOURCES.txt'\n"}
+[7.001866] (order_msgs) StdoutLine: {'line': b'[ 23%] Built target ament_cmake_python_build_order_msgs_egg\n'}
+[7.014968] (order_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.023421] (-) TimerEvent: {}
+[7.123742] (-) TimerEvent: {}
+[7.224047] (-) TimerEvent: {}
+[7.324370] (-) TimerEvent: {}
+[7.424771] (-) TimerEvent: {}
+[7.487578] (order_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target order_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[7.501672] (order_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/order_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/order_msgs/action/robot_action__type_support.cpp.o\x1b[0m\n'}
+[7.524911] (-) TimerEvent: {}
+[7.625251] (-) TimerEvent: {}
+[7.725585] (-) TimerEvent: {}
+[7.825910] (-) TimerEvent: {}
+[7.926326] (-) TimerEvent: {}
+[8.022471] (order_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/order_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/order_msgs/srv/order__type_support.cpp.o\x1b[0m\n'}
+[8.026433] (-) TimerEvent: {}
+[8.126756] (-) TimerEvent: {}
+[8.227077] (-) TimerEvent: {}
+[8.324061] (order_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX shared library liborder_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.327177] (-) TimerEvent: {}
+[8.375847] (order_msgs) StdoutLine: {'line': b'[ 33%] Built target order_msgs__rosidl_typesupport_cpp\n'}
+[8.387941] (order_msgs) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[8.427279] (-) TimerEvent: {}
+[8.527570] (-) TimerEvent: {}
+[8.627874] (-) TimerEvent: {}
+[8.728174] (-) TimerEvent: {}
+[8.828451] (-) TimerEvent: {}
+[8.928756] (-) TimerEvent: {}
+[9.029071] (-) TimerEvent: {}
+[9.129484] (-) TimerEvent: {}
+[9.158561] (order_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target order_msgs__rosidl_generator_c\x1b[0m\n'}
+[9.173144] (order_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/order_msgs__rosidl_generator_c.dir/rosidl_generator_c/order_msgs/action/detail/robot_action__functions.c.o\x1b[0m\n'}
+[9.229576] (-) TimerEvent: {}
+[9.329892] (-) TimerEvent: {}
+[9.343778] (order_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/order_msgs__rosidl_generator_c.dir/rosidl_generator_c/order_msgs/srv/detail/order__functions.c.o\x1b[0m\n'}
+[9.415383] (order_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking C shared library liborder_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[9.430000] (-) TimerEvent: {}
+[9.460791] (order_msgs) StdoutLine: {'line': b'[ 43%] Built target order_msgs__rosidl_generator_c\n'}
+[9.474801] (order_msgs) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[9.530099] (-) TimerEvent: {}
+[9.630403] (-) TimerEvent: {}
+[9.730985] (-) TimerEvent: {}
+[9.831260] (-) TimerEvent: {}
+[9.931559] (-) TimerEvent: {}
+[10.031851] (-) TimerEvent: {}
+[10.102495] (order_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target order_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[10.122393] (order_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/order_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/order_msgs/action/detail/robot_action__type_support_c.cpp.o\x1b[0m\n'}
+[10.131972] (-) TimerEvent: {}
+[10.232287] (-) TimerEvent: {}
+[10.332593] (-) TimerEvent: {}
+[10.432915] (-) TimerEvent: {}
+[10.533237] (-) TimerEvent: {}
+[10.575144] (order_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/order_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/order_msgs/srv/detail/order__type_support_c.cpp.o\x1b[0m\n'}
+[10.633340] (-) TimerEvent: {}
+[10.733687] (-) TimerEvent: {}
+[10.834025] (-) TimerEvent: {}
+[10.934350] (-) TimerEvent: {}
+[10.967815] (order_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library liborder_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[11.034524] (-) TimerEvent: {}
+[11.062812] (order_msgs) StdoutLine: {'line': b'[ 53%] Built target order_msgs__rosidl_typesupport_fastrtps_c\n'}
+[11.077185] (order_msgs) StdoutLine: {'line': b'[ 56%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[11.134576] (-) TimerEvent: {}
+[11.235034] (-) TimerEvent: {}
+[11.335499] (-) TimerEvent: {}
+[11.435801] (-) TimerEvent: {}
+[11.535772] (order_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target order_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[11.535990] (-) TimerEvent: {}
+[11.550145] (order_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/order_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/order_msgs/action/robot_action__type_support.cpp.o\x1b[0m\n'}
+[11.609598] (order_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/order_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/order_msgs/srv/order__type_support.cpp.o\x1b[0m\n'}
+[11.636108] (-) TimerEvent: {}
+[11.646713] (order_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library liborder_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[11.706692] (order_msgs) StdoutLine: {'line': b'[ 64%] Built target order_msgs__rosidl_typesupport_c\n'}
+[11.718992] (order_msgs) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[11.736214] (-) TimerEvent: {}
+[11.836526] (-) TimerEvent: {}
+[11.936831] (-) TimerEvent: {}
+[12.037125] (-) TimerEvent: {}
+[12.137420] (-) TimerEvent: {}
+[12.237810] (-) TimerEvent: {}
+[12.323482] (order_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target order_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[12.337921] (-) TimerEvent: {}
+[12.338773] (order_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding C object CMakeFiles/order_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/order_msgs/action/detail/robot_action__type_support.c.o\x1b[0m\n'}
+[12.398373] (order_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding C object CMakeFiles/order_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/order_msgs/srv/detail/order__type_support.c.o\x1b[0m\n'}
+[12.438024] (-) TimerEvent: {}
+[12.441765] (order_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking C shared library liborder_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[12.481705] (order_msgs) StdoutLine: {'line': b'[ 74%] Built target order_msgs__rosidl_typesupport_introspection_c\n'}
+[12.507128] (order_msgs) StdoutLine: {'line': b'[ 74%] Built target order_msgs\n'}
+[12.532947] (order_msgs) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[12.538127] (-) TimerEvent: {}
+[12.638433] (-) TimerEvent: {}
+[12.738762] (-) TimerEvent: {}
+[12.839085] (-) TimerEvent: {}
+[12.939423] (-) TimerEvent: {}
+[13.039729] (-) TimerEvent: {}
+[13.140029] (-) TimerEvent: {}
+[13.240343] (-) TimerEvent: {}
+[13.340657] (-) TimerEvent: {}
+[13.440964] (-) TimerEvent: {}
+[13.541275] (-) TimerEvent: {}
+[13.641576] (-) TimerEvent: {}
+[13.741878] (-) TimerEvent: {}
+[13.842185] (-) TimerEvent: {}
+[13.874575] (order_msgs) StdoutLine: {'line': b'[ 76%] Built target order_msgs__py\n'}
+[13.885404] (order_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target order_msgs__rosidl_generator_py\x1b[0m\n'}
+[13.906087] (order_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/order_msgs__rosidl_generator_py.dir/rosidl_generator_py/order_msgs/action/_robot_action_s.c.o\x1b[0m\n'}
+[13.942288] (-) TimerEvent: {}
+[14.042590] (-) TimerEvent: {}
+[14.081546] (order_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/order_msgs__rosidl_generator_py.dir/rosidl_generator_py/order_msgs/srv/_order_s.c.o\x1b[0m\n'}
+[14.142697] (-) TimerEvent: {}
+[14.243316] (-) TimerEvent: {}
+[14.288188] (order_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/order_msgs/liborder_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[14.346146] (-) TimerEvent: {}
+[14.385801] (order_msgs) StdoutLine: {'line': b'[ 84%] Built target order_msgs__rosidl_generator_py\n'}
+[14.405957] (order_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target order_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[14.429938] (order_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/order_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/order_msgs/_order_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[14.446254] (-) TimerEvent: {}
+[14.546879] (-) TimerEvent: {}
+[14.649630] (-) TimerEvent: {}
+[14.750036] (-) TimerEvent: {}
+[14.815974] (order_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/order_msgs/order_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.850298] (-) TimerEvent: {}
+[14.930416] (order_msgs) StdoutLine: {'line': b'[ 89%] Built target order_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[14.950410] (-) TimerEvent: {}
+[14.953202] (order_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target order_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[15.009821] (order_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/order_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/order_msgs/_order_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[15.050525] (-) TimerEvent: {}
+[15.151159] (-) TimerEvent: {}
+[15.251813] (-) TimerEvent: {}
+[15.301376] (order_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/order_msgs/order_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.353842] (-) TimerEvent: {}
+[15.392821] (order_msgs) StdoutLine: {'line': b'[ 94%] Built target order_msgs__rosidl_typesupport_c__pyext\n'}
+[15.415503] (order_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target order_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[15.449628] (order_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/order_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/order_msgs/_order_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[15.454662] (-) TimerEvent: {}
+[15.555105] (-) TimerEvent: {}
+[15.659919] (-) TimerEvent: {}
+[15.747649] (order_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/order_msgs/order_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.761304] (-) TimerEvent: {}
+[15.853838] (order_msgs) StdoutLine: {'line': b'[100%] Built target order_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[15.861613] (-) TimerEvent: {}
+[15.881198] (order_msgs) CommandEnded: {'returncode': 0}
+[15.962344] (-) TimerEvent: {}
+[16.064577] (-) TimerEvent: {}
+[16.079944] (order_msgs) JobProgress: {'identifier': 'order_msgs', 'progress': 'install'}
+[16.103277] (order_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bok/project_ws/build/order_msgs'], 'cwd': '/home/bok/project_ws/build/order_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bok'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bok/project_ws/install/order_msgs/lib:/home/bok/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/bok/ros2_ws/install/ros_study_msgs/lib:/home/bok/ros2_ws/src/install/ros_study_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/bok'), ('OLDPWD', '/home/bok'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '851'), ('SYSTEMD_EXEC_PID', '1070'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '25800'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bok/project_ws/install:/home/bok/project_ws/src/install:/home/bok/turtlebot3_ws/install:/home/bok/ros2_ws/install:/home/bok/ros2_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bok'), ('JOURNAL_STREAM', '8:7759'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bok'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/bok/anaconda3/bin:/home/bok/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bok-900X5T:@/tmp/.ICE-unix/1050,unix/bok-900X5T:/tmp/.ICE-unix/1050'), ('INVOCATION_ID', '27b1ae03363d4d0aa27daa7e8a790bd0'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6RIKW2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '39'), ('AMENT_PREFIX_PATH', '/home/bok/project_ws/install/turtlebot:/home/bok/project_ws/install/order_msgs:/home/bok/project_ws/src/install/turtlebot:/home/bok/project_ws/src/install/order_msgs:/home/bok/turtlebot3_ws/install/turtlebot3:/home/bok/turtlebot3_ws/install/turtlebot3_teleop:/home/bok/turtlebot3_ws/install/turtlebot3_simulations:/home/bok/turtlebot3_ws/install/turtlebot3_bringup:/home/bok/turtlebot3_ws/install/turtlebot3_node:/home/bok/turtlebot3_ws/install/turtlebot3_navigation2:/home/bok/turtlebot3_ws/install/turtlebot3_fake_node:/home/bok/turtlebot3_ws/install/turtlebot3_example:/home/bok/turtlebot3_ws/install/turtlebot3_msgs:/home/bok/turtlebot3_ws/install/turtlebot3_gazebo:/home/bok/turtlebot3_ws/install/turtlebot3_description:/home/bok/turtlebot3_ws/install/turtlebot3_cartographer:/home/bok/turtlebot3_ws/install/ld08_driver:/home/bok/ros2_ws/install/ros_study_py:/home/bok/ros2_ws/install/ex_calculator:/home/bok/ros2_ws/install/ros_study_msgs:/home/bok/ros2_ws/install/py_pubsub:/home/bok/ros2_ws/src/install/ros_study_py:/home/bok/ros2_ws/src/install/ex_calculator:/home/bok/ros2_ws/src/install/ros_study_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:4c4376b0-7e45-4bbe-b41d-918c32fdf12b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bok/project_ws/build/order_msgs'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-02'), ('PYTHONPATH', '/home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages:/home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages:/home/bok/project_ws/src/install/turtlebot/lib/python3.10/site-packages:/home/bok/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/bok/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/bok/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/bok/ros2_ws/install/ros_study_py/lib/python3.10/site-packages:/home/bok/ros2_ws/install/ex_calculator/lib/python3.10/site-packages:/home/bok/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages:/home/bok/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/bok/ros2_ws/src/install/ros_study_py/lib/python3.10/site-packages:/home/bok/ros2_ws/src/install/ex_calculator/lib/python3.10/site-packages:/home/bok/ros2_ws/src/install/ros_study_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/bok/project_ws/install/order_msgs:/home/bok/project_ws/src/install/order_msgs:/home/bok/turtlebot3_ws/install/turtlebot3:/home/bok/turtlebot3_ws/install/turtlebot3_simulations:/home/bok/turtlebot3_ws/install/turtlebot3_bringup:/home/bok/turtlebot3_ws/install/turtlebot3_node:/home/bok/turtlebot3_ws/install/turtlebot3_navigation2:/home/bok/turtlebot3_ws/install/turtlebot3_fake_node:/home/bok/turtlebot3_ws/install/turtlebot3_msgs:/home/bok/turtlebot3_ws/install/turtlebot3_gazebo:/home/bok/turtlebot3_ws/install/turtlebot3_description:/home/bok/turtlebot3_ws/install/turtlebot3_cartographer:/home/bok/turtlebot3_ws/install/ld08_driver:/home/bok/ros2_ws/install/ros_study_msgs:/home/bok/ros2_ws/src/install/ros_study_msgs:/home/bok/project_ws/install/turtlebot:/home/bok/project_ws/src/install/turtlebot:/home/bok/turtlebot3_ws/install/turtlebot3_teleop:/home/bok/turtlebot3_ws/install/turtlebot3_example:/home/bok/ros2_ws/install/ros_study_py:/home/bok/ros2_ws/install/ex_calculator:/home/bok/ros2_ws/install/py_pubsub:/home/bok/ros2_ws/src/install/ros_study_py:/home/bok/ros2_ws/src/install/ex_calculator:/opt/ros/humble')]), 'shell': False}
+[16.138077] (order_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.138447] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/share/ament_index/resource_index/rosidl_interfaces/order_msgs\n'}
+[16.138650] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs\n'}
+[16.138781] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv\n'}
+[16.140281] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv/order.h\n'}
+[16.141044] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv/order_food.h\n'}
+[16.141197] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv/detail\n'}
+[16.141329] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv/detail/order__struct.h\n'}
+[16.142448] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv/detail/order_food__struct.h\n'}
+[16.144912] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv/detail/order_food__functions.c\n'}
+[16.145102] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv/detail/order_food__functions.h\n'}
+[16.145232] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv/detail/order_food__type_support.h\n'}
+[16.145350] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv/detail/order__functions.c\n'}
+[16.145464] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv/detail/order__type_support.h\n'}
+[16.145600] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv/detail/order__functions.h\n'}
+[16.145714] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/action\n'}
+[16.145826] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/action/robot_action.h\n'}
+[16.145937] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/action/detail\n'}
+[16.146045] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/action/detail/robot_action__type_support.h\n'}
+[16.146154] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/action/detail/robot_action__struct.h\n'}
+[16.146262] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/action/detail/robot_action__functions.c\n'}
+[16.146368] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/action/detail/robot_action__functions.h\n'}
+[16.146474] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/msg\n'}
+[16.146620] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/msg/order_msg.h\n'}
+[16.146748] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[16.146892] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/msg/detail\n'}
+[16.149731] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/msg/detail/order_msg__functions.c\n'}
+[16.149887] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/msg/detail/order_msg__struct.h\n'}
+[16.150005] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/msg/detail/order_msg__type_support.h\n'}
+[16.150117] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/msg/detail/order_msg__functions.h\n'}
+[16.150224] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/share/order_msgs/environment/library_path.sh\n'}
+[16.150331] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/share/order_msgs/environment/library_path.dsv\n'}
+[16.151125] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/lib/liborder_msgs__rosidl_generator_c.so\n'}
+[16.152154] (order_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/bok/project_ws/install/order_msgs/lib/liborder_msgs__rosidl_generator_c.so" to ""\n'}
+[16.152540] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs\n'}
+[16.152747] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv\n'}
+[16.152967] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv/detail\n'}
+[16.153146] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv/detail/order_food__rosidl_typesupport_fastrtps_c.h\n'}
+[16.153352] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv/detail/order__rosidl_typesupport_fastrtps_c.h\n'}
+[16.153658] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/action\n'}
+[16.153792] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/action/detail\n'}
+[16.153904] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/action/detail/robot_action__rosidl_typesupport_fastrtps_c.h\n'}
+[16.154016] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/msg\n'}
+[16.154140] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[16.154251] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/msg/detail\n'}
+[16.154360] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/msg/detail/order_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[16.159422] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/lib/liborder_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[16.160348] (order_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/bok/project_ws/install/order_msgs/lib/liborder_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[16.163745] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs\n'}
+[16.163909] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv\n'}
+[16.164027] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv/detail\n'}
+[16.164154] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv/detail/order__type_support.c\n'}
+[16.164301] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv/detail/order_food__type_support.c\n'}
+[16.164413] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv/detail/order__rosidl_typesupport_introspection_c.h\n'}
+[16.164529] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv/detail/order_food__rosidl_typesupport_introspection_c.h\n'}
+[16.164642] (-) TimerEvent: {}
+[16.165446] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/action\n'}
+[16.165634] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/action/detail\n'}
+[16.165762] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/action/detail/robot_action__rosidl_typesupport_introspection_c.h\n'}
+[16.165883] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/action/detail/robot_action__type_support.c\n'}
+[16.166001] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/msg\n'}
+[16.167072] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[16.167453] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/msg/detail\n'}
+[16.167851] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/msg/detail/order_msg__type_support.c\n'}
+[16.167990] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/msg/detail/order_msg__rosidl_typesupport_introspection_c.h\n'}
+[16.168113] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/lib/liborder_msgs__rosidl_typesupport_introspection_c.so\n'}
+[16.168230] (order_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/bok/project_ws/install/order_msgs/lib/liborder_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[16.168345] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/lib/liborder_msgs__rosidl_typesupport_c.so\n'}
+[16.168457] (order_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/bok/project_ws/install/order_msgs/lib/liborder_msgs__rosidl_typesupport_c.so" to ""\n'}
+[16.168612] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs\n'}
+[16.168790] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv\n'}
+[16.168937] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv/order_food.hpp\n'}
+[16.169066] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv/order.hpp\n'}
+[16.169194] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv/detail\n'}
+[16.172174] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv/detail/order_food__traits.hpp\n'}
+[16.172779] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv/detail/order_food__builder.hpp\n'}
+[16.173455] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv/detail/order__struct.hpp\n'}
+[16.174260] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv/detail/order__traits.hpp\n'}
+[16.174962] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv/detail/order_food__struct.hpp\n'}
+[16.177752] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv/detail/order__builder.hpp\n'}
+[16.178003] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/action\n'}
+[16.178126] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/action/robot_action.hpp\n'}
+[16.178243] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/action/detail\n'}
+[16.178356] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/action/detail/robot_action__struct.hpp\n'}
+[16.178474] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/action/detail/robot_action__traits.hpp\n'}
+[16.178610] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/action/detail/robot_action__builder.hpp\n'}
+[16.178729] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/msg\n'}
+[16.178843] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/msg/order_msg.hpp\n'}
+[16.179648] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/msg/detail\n'}
+[16.180343] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/msg/detail/order_msg__traits.hpp\n'}
+[16.180829] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/msg/detail/order_msg__builder.hpp\n'}
+[16.181022] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/msg/detail/order_msg__struct.hpp\n'}
+[16.181140] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs\n'}
+[16.181253] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv\n'}
+[16.181369] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv/detail\n'}
+[16.181482] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv/detail/dds_fastrtps\n'}
+[16.181614] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv/detail/order_food__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.181731] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv/detail/order__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.181849] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/action\n'}
+[16.181964] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/action/detail\n'}
+[16.182074] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/action/detail/dds_fastrtps\n'}
+[16.182186] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/action/detail/robot_action__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.182319] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/msg\n'}
+[16.182433] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[16.182559] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/msg/detail\n'}
+[16.182675] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/msg/detail/dds_fastrtps\n'}
+[16.182787] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/msg/detail/order_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.182916] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/lib/liborder_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[16.183028] (order_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/bok/project_ws/install/order_msgs/lib/liborder_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[16.183135] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs\n'}
+[16.183234] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv\n'}
+[16.183352] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv/detail\n'}
+[16.183466] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv/detail/order__type_support.cpp\n'}
+[16.187237] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv/detail/order__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.187483] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv/detail/order_food__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.187690] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/srv/detail/order_food__type_support.cpp\n'}
+[16.188331] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/action\n'}
+[16.189149] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/action/detail\n'}
+[16.189309] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/action/detail/robot_action__type_support.cpp\n'}
+[16.189436] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/action/detail/robot_action__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.189581] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/msg\n'}
+[16.189703] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/msg/detail\n'}
+[16.189815] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/msg/detail/order_msg__type_support.cpp\n'}
+[16.189926] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/include/order_msgs/order_msgs/msg/detail/order_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.190038] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/lib/liborder_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[16.190149] (order_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/bok/project_ws/install/order_msgs/lib/liborder_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[16.190278] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/lib/liborder_msgs__rosidl_typesupport_cpp.so\n'}
+[16.190392] (order_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/bok/project_ws/install/order_msgs/lib/liborder_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[16.190509] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/share/order_msgs/environment/pythonpath.sh\n'}
+[16.192695] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/share/order_msgs/environment/pythonpath.dsv\n'}
+[16.193414] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs-0.0.0-py3.10.egg-info\n'}
+[16.196283] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[16.196445] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[16.196578] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[16.196698] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[16.196810] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs\n'}
+[16.196921] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs/_order_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[16.197031] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs/order_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.197138] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs/liborder_msgs__rosidl_generator_py.so\n'}
+[16.197245] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs/_order_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[16.197369] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs/srv\n'}
+[16.197503] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs/srv/_order_s.c\n'}
+[16.200138] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs/srv/_order.py\n'}
+[16.200410] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs/srv/_order_food.py\n'}
+[16.200550] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs/srv/_order_food_s.c\n'}
+[16.200715] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs/srv/__init__.py\n'}
+[16.200840] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs/_order_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[16.200958] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs/__init__.py\n'}
+[16.204616] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs/order_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.207676] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs/order_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.207893] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs/action\n'}
+[16.208059] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs/action/_robot_action_s.c\n'}
+[16.208185] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs/action/__init__.py\n'}
+[16.211186] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs/action/_robot_action.py\n'}
+[16.211464] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs/msg\n'}
+[16.211613] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs/msg/_order_msg_s.c\n'}
+[16.211735] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs/msg/_order_msg.py\n'}
+[16.211849] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs/msg/__init__.py\n'}
+[16.267703] (-) TimerEvent: {}
+[16.368201] (-) TimerEvent: {}
+[16.406743] (order_msgs) StdoutLine: {'line': b"Listing '/home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs'...\n"}
+[16.407147] (order_msgs) StdoutLine: {'line': b"Compiling '/home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs/__init__.py'...\n"}
+[16.407288] (order_msgs) StdoutLine: {'line': b"Listing '/home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs/action'...\n"}
+[16.407403] (order_msgs) StdoutLine: {'line': b"Compiling '/home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs/action/__init__.py'...\n"}
+[16.407524] (order_msgs) StdoutLine: {'line': b"Compiling '/home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs/action/_robot_action.py'...\n"}
+[16.407647] (order_msgs) StdoutLine: {'line': b"Listing '/home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs/msg'...\n"}
+[16.407758] (order_msgs) StdoutLine: {'line': b"Listing '/home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs/srv'...\n"}
+[16.407869] (order_msgs) StdoutLine: {'line': b"Compiling '/home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs/srv/__init__.py'...\n"}
+[16.407980] (order_msgs) StdoutLine: {'line': b"Compiling '/home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs/srv/_order.py'...\n"}
+[16.436316] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs/order_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.443035] (order_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs/order_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[16.443296] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs/order_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.444574] (order_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs/order_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[16.444886] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs/order_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.449388] (order_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages/order_msgs/order_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[16.451131] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/lib/liborder_msgs__rosidl_generator_py.so\n'}
+[16.451318] (order_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/bok/project_ws/install/order_msgs/lib/liborder_msgs__rosidl_generator_py.so" to ""\n'}
+[16.451504] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/share/order_msgs/action/RobotAction.idl\n'}
+[16.451990] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/share/order_msgs/srv/Order.idl\n'}
+[16.456366] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/share/order_msgs/action/RobotAction.action\n'}
+[16.457913] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/share/order_msgs/srv/Order.srv\n'}
+[16.460139] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/share/order_msgs/srv/Order_Request.msg\n'}
+[16.460787] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/share/order_msgs/srv/Order_Response.msg\n'}
+[16.463314] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/share/ament_index/resource_index/package_run_dependencies/order_msgs\n'}
+[16.463889] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/share/ament_index/resource_index/parent_prefix_path/order_msgs\n'}
+[16.464057] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/share/order_msgs/environment/ament_prefix_path.sh\n'}
+[16.466741] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/share/order_msgs/environment/ament_prefix_path.dsv\n'}
+[16.468586] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/share/order_msgs/environment/path.sh\n'}
+[16.468773] (-) TimerEvent: {}
+[16.468939] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/share/order_msgs/environment/path.dsv\n'}
+[16.469080] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/share/order_msgs/local_setup.bash\n'}
+[16.469197] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/share/order_msgs/local_setup.sh\n'}
+[16.469310] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/share/order_msgs/local_setup.zsh\n'}
+[16.469421] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/share/order_msgs/local_setup.dsv\n'}
+[16.469539] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/share/order_msgs/package.dsv\n'}
+[16.469657] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/share/ament_index/resource_index/packages/order_msgs\n'}
+[16.471585] (order_msgs) StdoutLine: {'line': b'-- Old export file "/home/bok/project_ws/install/order_msgs/share/order_msgs/cmake/export_order_msgs__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/bok/project_ws/install/order_msgs/share/order_msgs/cmake/export_order_msgs__rosidl_generator_cExport-noconfig.cmake].\n'}
+[16.471844] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/share/order_msgs/cmake/export_order_msgs__rosidl_generator_cExport.cmake\n'}
+[16.475542] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/share/order_msgs/cmake/export_order_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[16.478718] (order_msgs) StdoutLine: {'line': b'-- Old export file "/home/bok/project_ws/install/order_msgs/share/order_msgs/cmake/export_order_msgs__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/home/bok/project_ws/install/order_msgs/share/order_msgs/cmake/export_order_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake].\n'}
+[16.478970] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/share/order_msgs/cmake/export_order_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[16.479975] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/share/order_msgs/cmake/export_order_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[16.480804] (order_msgs) StdoutLine: {'line': b'-- Old export file "/home/bok/project_ws/install/order_msgs/share/order_msgs/cmake/order_msgs__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/bok/project_ws/install/order_msgs/share/order_msgs/cmake/order_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake].\n'}
+[16.481784] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/share/order_msgs/cmake/order_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[16.489677] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/share/order_msgs/cmake/order_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[16.489966] (order_msgs) StdoutLine: {'line': b'-- Old export file "/home/bok/project_ws/install/order_msgs/share/order_msgs/cmake/order_msgs__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/bok/project_ws/install/order_msgs/share/order_msgs/cmake/order_msgs__rosidl_typesupport_cExport-noconfig.cmake].\n'}
+[16.490140] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/share/order_msgs/cmake/order_msgs__rosidl_typesupport_cExport.cmake\n'}
+[16.490261] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/share/order_msgs/cmake/order_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[16.493391] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/share/order_msgs/cmake/export_order_msgs__rosidl_generator_cppExport.cmake\n'}
+[16.493661] (order_msgs) StdoutLine: {'line': b'-- Old export file "/home/bok/project_ws/install/order_msgs/share/order_msgs/cmake/export_order_msgs__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/home/bok/project_ws/install/order_msgs/share/order_msgs/cmake/export_order_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake].\n'}
+[16.494567] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/share/order_msgs/cmake/export_order_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[16.495210] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/share/order_msgs/cmake/export_order_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[16.499212] (order_msgs) StdoutLine: {'line': b'-- Old export file "/home/bok/project_ws/install/order_msgs/share/order_msgs/cmake/order_msgs__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/bok/project_ws/install/order_msgs/share/order_msgs/cmake/order_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake].\n'}
+[16.499438] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/share/order_msgs/cmake/order_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[16.499574] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/share/order_msgs/cmake/order_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[16.500342] (order_msgs) StdoutLine: {'line': b'-- Old export file "/home/bok/project_ws/install/order_msgs/share/order_msgs/cmake/order_msgs__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/bok/project_ws/install/order_msgs/share/order_msgs/cmake/order_msgs__rosidl_typesupport_cppExport-noconfig.cmake].\n'}
+[16.500503] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/share/order_msgs/cmake/order_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[16.500757] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/share/order_msgs/cmake/order_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[16.504580] (order_msgs) StdoutLine: {'line': b'-- Old export file "/home/bok/project_ws/install/order_msgs/share/order_msgs/cmake/export_order_msgs__rosidl_generator_pyExport.cmake" will be replaced.  Removing files [/home/bok/project_ws/install/order_msgs/share/order_msgs/cmake/export_order_msgs__rosidl_generator_pyExport-noconfig.cmake].\n'}
+[16.505392] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/share/order_msgs/cmake/export_order_msgs__rosidl_generator_pyExport.cmake\n'}
+[16.509161] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/share/order_msgs/cmake/export_order_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[16.509404] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/share/order_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[16.511888] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/share/order_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[16.512593] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/share/order_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[16.516007] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/share/order_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[16.517565] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/share/order_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[16.517766] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/share/order_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[16.517889] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/share/order_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[16.522616] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/share/order_msgs/cmake/order_msgsConfig.cmake\n'}
+[16.522863] (order_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bok/project_ws/install/order_msgs/share/order_msgs/cmake/order_msgsConfig-version.cmake\n'}
+[16.522989] (order_msgs) StdoutLine: {'line': b'-- Installing: /home/bok/project_ws/install/order_msgs/share/order_msgs/package.xml\n'}
+[16.531391] (order_msgs) CommandEnded: {'returncode': 0}
+[16.572782] (-) TimerEvent: {}
+[16.673127] (-) TimerEvent: {}
+[16.773661] (-) TimerEvent: {}
+[16.874372] (-) TimerEvent: {}
+[16.882564] (order_msgs) JobEnded: {'identifier': 'order_msgs', 'rc': 0}
+[16.886088] (turtlebot) JobStarted: {'identifier': 'turtlebot'}
+[16.974485] (-) TimerEvent: {}
+[17.074887] (-) TimerEvent: {}
+[17.175426] (-) TimerEvent: {}
+[17.277118] (-) TimerEvent: {}
+[17.377602] (-) TimerEvent: {}
+[17.478005] (-) TimerEvent: {}
+[17.580568] (-) TimerEvent: {}
+[17.680910] (-) TimerEvent: {}
+[17.781362] (-) TimerEvent: {}
+[17.881692] (-) TimerEvent: {}
+[17.982003] (-) TimerEvent: {}
+[18.082327] (-) TimerEvent: {}
+[18.182650] (-) TimerEvent: {}
+[18.282944] (-) TimerEvent: {}
+[18.378029] (turtlebot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/turtlebot', 'build', '--build-base', '/home/bok/project_ws/build/turtlebot/build', 'install', '--record', '/home/bok/project_ws/build/turtlebot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/bok/project_ws/src/turtlebot', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'bok', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/bok/project_ws/install/order_msgs/lib:/home/bok/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/bok/ros2_ws/install/ros_study_msgs/lib:/home/bok/ros2_ws/src/install/ros_study_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins', 'HOME': '/home/bok', 'OLDPWD': '/home/bok', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '851', 'SYSTEMD_EXEC_PID': '1070', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '25800', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/bok/project_ws/install:/home/bok/project_ws/src/install:/home/bok/turtlebot3_ws/install:/home/bok/ros2_ws/install:/home/bok/ros2_ws/src/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'bok', 'JOURNAL_STREAM': '8:7759', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bok', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/home/bok/anaconda3/bin:/home/bok/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/bok-900X5T:@/tmp/.ICE-unix/1050,unix/bok-900X5T:/tmp/.ICE-unix/1050', 'INVOCATION_ID': '27b1ae03363d4d0aa27daa7e8a790bd0', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.6RIKW2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '39', 'AMENT_PREFIX_PATH': '/home/bok/project_ws/install/turtlebot:/home/bok/project_ws/install/order_msgs:/home/bok/project_ws/src/install/turtlebot:/home/bok/project_ws/src/install/order_msgs:/home/bok/turtlebot3_ws/install/turtlebot3:/home/bok/turtlebot3_ws/install/turtlebot3_teleop:/home/bok/turtlebot3_ws/install/turtlebot3_simulations:/home/bok/turtlebot3_ws/install/turtlebot3_bringup:/home/bok/turtlebot3_ws/install/turtlebot3_node:/home/bok/turtlebot3_ws/install/turtlebot3_navigation2:/home/bok/turtlebot3_ws/install/turtlebot3_fake_node:/home/bok/turtlebot3_ws/install/turtlebot3_example:/home/bok/turtlebot3_ws/install/turtlebot3_msgs:/home/bok/turtlebot3_ws/install/turtlebot3_gazebo:/home/bok/turtlebot3_ws/install/turtlebot3_description:/home/bok/turtlebot3_ws/install/turtlebot3_cartographer:/home/bok/turtlebot3_ws/install/ld08_driver:/home/bok/ros2_ws/install/ros_study_py:/home/bok/ros2_ws/install/ex_calculator:/home/bok/ros2_ws/install/ros_study_msgs:/home/bok/ros2_ws/install/py_pubsub:/home/bok/ros2_ws/src/install/ros_study_py:/home/bok/ros2_ws/src/install/ex_calculator:/home/bok/ros2_ws/src/install/ros_study_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:4c4376b0-7e45-4bbe-b41d-918c32fdf12b', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bok/project_ws/build/turtlebot', 'TURTLEBOT3_MODEL': 'waffle_pi', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/bok/project_ws/build/turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages:/home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages:/home/bok/project_ws/install/order_msgs/local/lib/python3.10/dist-packages:/home/bok/project_ws/src/install/turtlebot/lib/python3.10/site-packages:/home/bok/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/bok/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/bok/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/bok/ros2_ws/install/ros_study_py/lib/python3.10/site-packages:/home/bok/ros2_ws/install/ex_calculator/lib/python3.10/site-packages:/home/bok/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages:/home/bok/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/bok/ros2_ws/src/install/ros_study_py/lib/python3.10/site-packages:/home/bok/ros2_ws/src/install/ex_calculator/lib/python3.10/site-packages:/home/bok/ros2_ws/src/install/ros_study_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/bok/project_ws/install/order_msgs:/home/bok/project_ws/src/install/order_msgs:/home/bok/turtlebot3_ws/install/turtlebot3:/home/bok/turtlebot3_ws/install/turtlebot3_simulations:/home/bok/turtlebot3_ws/install/turtlebot3_bringup:/home/bok/turtlebot3_ws/install/turtlebot3_node:/home/bok/turtlebot3_ws/install/turtlebot3_navigation2:/home/bok/turtlebot3_ws/install/turtlebot3_fake_node:/home/bok/turtlebot3_ws/install/turtlebot3_msgs:/home/bok/turtlebot3_ws/install/turtlebot3_gazebo:/home/bok/turtlebot3_ws/install/turtlebot3_description:/home/bok/turtlebot3_ws/install/turtlebot3_cartographer:/home/bok/turtlebot3_ws/install/ld08_driver:/home/bok/ros2_ws/install/ros_study_msgs:/home/bok/ros2_ws/src/install/ros_study_msgs'}, 'shell': False}
+[18.383037] (-) TimerEvent: {}
+[18.483335] (-) TimerEvent: {}
+[18.583832] (-) TimerEvent: {}
+[18.684227] (-) TimerEvent: {}
+[18.774328] (turtlebot) StdoutLine: {'line': b'running egg_info\n'}
+[18.775467] (turtlebot) StdoutLine: {'line': b'writing ../../build/turtlebot/turtlebot.egg-info/PKG-INFO\n'}
+[18.775790] (turtlebot) StdoutLine: {'line': b'writing dependency_links to ../../build/turtlebot/turtlebot.egg-info/dependency_links.txt\n'}
+[18.776288] (turtlebot) StdoutLine: {'line': b'writing entry points to ../../build/turtlebot/turtlebot.egg-info/entry_points.txt\n'}
+[18.776505] (turtlebot) StdoutLine: {'line': b'writing requirements to ../../build/turtlebot/turtlebot.egg-info/requires.txt\n'}
+[18.776734] (turtlebot) StdoutLine: {'line': b'writing top-level names to ../../build/turtlebot/turtlebot.egg-info/top_level.txt\n'}
+[18.779161] (turtlebot) StdoutLine: {'line': b"reading manifest file '../../build/turtlebot/turtlebot.egg-info/SOURCES.txt'\n"}
+[18.780389] (turtlebot) StdoutLine: {'line': b"writing manifest file '../../build/turtlebot/turtlebot.egg-info/SOURCES.txt'\n"}
+[18.780649] (turtlebot) StdoutLine: {'line': b'running build\n'}
+[18.780796] (turtlebot) StdoutLine: {'line': b'running build_py\n'}
+[18.781435] (turtlebot) StdoutLine: {'line': b'copying turtlebot/turtlebot3_gui3.py -> /home/bok/project_ws/build/turtlebot/build/lib/turtlebot\n'}
+[18.781915] (turtlebot) StdoutLine: {'line': b'running install\n'}
+[18.782341] (turtlebot) StdoutLine: {'line': b'running install_lib\n'}
+[18.783781] (turtlebot) StdoutLine: {'line': b'copying /home/bok/project_ws/build/turtlebot/build/lib/turtlebot/turtlebot3_gui3.py -> /home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot\n'}
+[18.784297] (-) TimerEvent: {}
+[18.785111] (turtlebot) StdoutLine: {'line': b'byte-compiling /home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot/turtlebot3_gui3.py to turtlebot3_gui3.cpython-310.pyc\n'}
+[18.787555] (turtlebot) StdoutLine: {'line': b'running install_data\n'}
+[18.787831] (turtlebot) StdoutLine: {'line': b'running install_egg_info\n'}
+[18.790039] (turtlebot) StdoutLine: {'line': b"removing '/home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[18.790659] (turtlebot) StdoutLine: {'line': b'Copying ../../build/turtlebot/turtlebot.egg-info to /home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot-0.0.0-py3.10.egg-info\n'}
+[18.791841] (turtlebot) StdoutLine: {'line': b'running install_scripts\n'}
+[18.820049] (turtlebot) StdoutLine: {'line': b'Installing menu1_gui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot\n'}
+[18.820384] (turtlebot) StdoutLine: {'line': b'Installing menu2_gui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot\n'}
+[18.820613] (turtlebot) StdoutLine: {'line': b'Installing menu3_gui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot\n'}
+[18.820859] (turtlebot) StdoutLine: {'line': b'Installing menu4_gui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot\n'}
+[18.821056] (turtlebot) StdoutLine: {'line': b'Installing menu5_gui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot\n'}
+[18.821278] (turtlebot) StdoutLine: {'line': b'Installing menu6_gui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot\n'}
+[18.821441] (turtlebot) StdoutLine: {'line': b'Installing menu7_gui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot\n'}
+[18.821698] (turtlebot) StdoutLine: {'line': b'Installing menu8_gui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot\n'}
+[18.821876] (turtlebot) StdoutLine: {'line': b'Installing menu9_gui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot\n'}
+[18.822003] (turtlebot) StdoutLine: {'line': b'Installing menu_gui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot\n'}
+[18.822227] (turtlebot) StdoutLine: {'line': b'Installing order_list script to /home/bok/project_ws/install/turtlebot/lib/turtlebot\n'}
+[18.822386] (turtlebot) StdoutLine: {'line': b'Installing robot_gui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot\n'}
+[18.822614] (turtlebot) StdoutLine: {'line': b'Installing turtle3_gui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot\n'}
+[18.822740] (turtlebot) StdoutLine: {'line': b'Installing turtle3_gui2 script to /home/bok/project_ws/install/turtlebot/lib/turtlebot\n'}
+[18.822872] (turtlebot) StdoutLine: {'line': b'Installing turtlebot3_gui3 script to /home/bok/project_ws/install/turtlebot/lib/turtlebot\n'}
+[18.823419] (turtlebot) StdoutLine: {'line': b"writing list of installed files to '/home/bok/project_ws/build/turtlebot/install.log'\n"}
+[18.858552] (turtlebot) CommandEnded: {'returncode': 0}
+[18.867881] (turtlebot) JobEnded: {'identifier': 'turtlebot', 'rc': 0}
+[18.868791] (-) EventReactorShutdown: {}

@@ -1,0 +1,40 @@
+[1.499s] Invoking command in '/home/bok/ff_ws/src/project': PYTHONPATH=/home/bok/ff_ws/build/project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bok/ff_ws/install/project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/project build --build-base /home/bok/ff_ws/build/project/build install --record /home/bok/ff_ws/build/project/install.log --single-version-externally-managed install_data
+[1.710s] /home/bok/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[1.710s]   warnings.warn(msg)
+[1.867s] running egg_info
+[1.891s] writing ../../build/project/project.egg-info/PKG-INFO
+[1.892s] writing dependency_links to ../../build/project/project.egg-info/dependency_links.txt
+[1.892s] writing entry points to ../../build/project/project.egg-info/entry_points.txt
+[1.893s] writing requirements to ../../build/project/project.egg-info/requires.txt
+[1.893s] writing top-level names to ../../build/project/project.egg-info/top_level.txt
+[1.947s] reading manifest file '../../build/project/project.egg-info/SOURCES.txt'
+[1.949s] writing manifest file '../../build/project/project.egg-info/SOURCES.txt'
+[1.950s] running build
+[1.950s] running build_py
+[1.950s] copying project/fix_rotation.py -> /home/bok/ff_ws/build/project/build/lib/project
+[1.950s] copying project/temp.py -> /home/bok/ff_ws/build/project/build/lib/project
+[1.951s] copying project/control_tower_server.py -> /home/bok/ff_ws/build/project/build/lib/project
+[1.951s] copying project/subscription.py -> /home/bok/ff_ws/build/project/build/lib/project
+[1.951s] copying project/manipulator.py -> /home/bok/ff_ws/build/project/build/lib/project
+[1.951s] copying project/control_tower.py -> /home/bok/ff_ws/build/project/build/lib/project
+[1.952s] copying project/camera.py -> /home/bok/ff_ws/build/project/build/lib/project
+[1.952s] copying project/inverse_test.py -> /home/bok/ff_ws/build/project/build/lib/project
+[1.952s] copying project/nnnn.py -> /home/bok/ff_ws/build/project/build/lib/project
+[1.952s] copying project/__init__.py -> /home/bok/ff_ws/build/project/build/lib/project
+[1.953s] running install
+[1.959s] running install_lib
+[1.984s] copying /home/bok/ff_ws/build/project/build/lib/project/subscription.py -> /home/bok/ff_ws/install/project/lib/python3.10/site-packages/project
+[1.986s] byte-compiling /home/bok/ff_ws/install/project/lib/python3.10/site-packages/project/subscription.py to subscription.cpython-310.pyc
+[1.988s] running install_data
+[1.989s] copying resource/project -> /home/bok/ff_ws/install/project/share/ament_index/resource_index/packages
+[1.989s] copying package.xml -> /home/bok/ff_ws/install/project/share/project
+[1.989s] running install_egg_info
+[2.016s] removing '/home/bok/ff_ws/install/project/lib/python3.10/site-packages/project-0.0.0-py3.10.egg-info' (and everything under it)
+[2.016s] Copying ../../build/project/project.egg-info to /home/bok/ff_ws/install/project/lib/python3.10/site-packages/project-0.0.0-py3.10.egg-info
+[2.018s] running install_scripts
+[2.220s] Installing camera script to /home/bok/ff_ws/install/project/lib/project
+[2.221s] Installing control_tower script to /home/bok/ff_ws/install/project/lib/project
+[2.221s] Installing mani_control script to /home/bok/ff_ws/install/project/lib/project
+[2.221s] Installing server script to /home/bok/ff_ws/install/project/lib/project
+[2.221s] writing list of installed files to '/home/bok/ff_ws/build/project/install.log'
+[2.264s] Invoked command in '/home/bok/ff_ws/src/project' returned '0': PYTHONPATH=/home/bok/ff_ws/build/project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bok/ff_ws/install/project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/project build --build-base /home/bok/ff_ws/build/project/build install --record /home/bok/ff_ws/build/project/install.log --single-version-externally-managed install_data

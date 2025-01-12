@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/cleaning/cleaning.egg-info/PKG-INFO
+../../build/cleaning/cleaning.egg-info/SOURCES.txt
+../../build/cleaning/cleaning.egg-info/dependency_links.txt
+../../build/cleaning/cleaning.egg-info/entry_points.txt
+../../build/cleaning/cleaning.egg-info/requires.txt
+../../build/cleaning/cleaning.egg-info/top_level.txt
+../../build/cleaning/cleaning.egg-info/zip-safe
+cleaning/__init__.py
+cleaning/clean.py
+cleaning/find.py
+resource/cleaning
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

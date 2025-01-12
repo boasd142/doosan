@@ -1,0 +1,45 @@
+[  3%] Built target order_msgs__cpp
+[ 12%] Built target order_msgs__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_order_msgs
+[ 22%] Built target order_msgs__rosidl_typesupport_introspection_cpp
+[ 32%] Built target order_msgs__rosidl_typesupport_fastrtps_cpp
+[ 41%] Built target order_msgs__rosidl_typesupport_cpp
+[ 51%] Built target order_msgs__rosidl_typesupport_fastrtps_c
+[ 70%] Built target order_msgs__rosidl_typesupport_c
+[ 70%] Built target order_msgs__rosidl_typesupport_introspection_c
+[ 70%] Built target order_msgs
+[ 74%] Built target order_msgs__py
+[ 80%] Built target order_msgs__rosidl_generator_py
+[ 83%] [32mBuilding C object CMakeFiles/order_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/order_msgs/_order_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/order_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/order_msgs/_order_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/order_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/order_msgs/_order_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+In file included from [01m[K/home/bok/project_ws/build/order_msgs/rosidl_generator_py/order_msgs/_order_msgs_s.ep.rosidl_typesupport_introspection_c.c:338[m[K:
+[01m[K/home/bok/project_ws/build/order_msgs/rosidl_generator_c/order_msgs/action/detail/robot_action__struct.h:83:10:[m[K [01;31m[Kfatal error: [m[Kunique_identifier_msgs/msg/detail/uuid__struct.h: No such file or directory
+   83 | #include [01;31m[K"unique_identifier_msgs/msg/detail/uuid__struct.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/order_msgs__rosidl_typesupport_introspection_c__pyext.dir/build.make:76: CMakeFiles/order_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/order_msgs/_order_msgs_s.ep.rosidl_typesupport_introspection_c.c.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:535: CMakeFiles/order_msgs__rosidl_typesupport_introspection_c__pyext.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/bok/project_ws/build/order_msgs/rosidl_generator_py/order_msgs/_order_msgs_s.ep.rosidl_typesupport_c.c:338[m[K:
+[01m[K/home/bok/project_ws/build/order_msgs/rosidl_generator_c/order_msgs/action/detail/robot_action__struct.h:83:10:[m[K [01;31m[Kfatal error: [m[Kunique_identifier_msgs/msg/detail/uuid__struct.h: No such file or directory
+   83 | #include [01;31m[K"unique_identifier_msgs/msg/detail/uuid__struct.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/order_msgs__rosidl_typesupport_c__pyext.dir/build.make:76: CMakeFiles/order_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/order_msgs/_order_msgs_s.ep.rosidl_typesupport_c.c.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:564: CMakeFiles/order_msgs__rosidl_typesupport_c__pyext.dir/all] Error 2
+In file included from [01m[K/home/bok/project_ws/build/order_msgs/rosidl_generator_py/order_msgs/_order_msgs_s.ep.rosidl_typesupport_fastrtps_c.c:338[m[K:
+[01m[K/home/bok/project_ws/build/order_msgs/rosidl_generator_c/order_msgs/action/detail/robot_action__struct.h:83:10:[m[K [01;31m[Kfatal error: [m[Kunique_identifier_msgs/msg/detail/uuid__struct.h: No such file or directory
+   83 | #include [01;31m[K"unique_identifier_msgs/msg/detail/uuid__struct.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/order_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/build.make:76: CMakeFiles/order_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/order_msgs/_order_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:505: CMakeFiles/order_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all] Error 2
+running egg_info
+writing order_msgs.egg-info/PKG-INFO
+writing dependency_links to order_msgs.egg-info/dependency_links.txt
+writing top-level names to order_msgs.egg-info/top_level.txt
+reading manifest file 'order_msgs.egg-info/SOURCES.txt'
+writing manifest file 'order_msgs.egg-info/SOURCES.txt'
+[ 90%] Built target ament_cmake_python_build_order_msgs_egg
+gmake: *** [Makefile:146: all] Error 2

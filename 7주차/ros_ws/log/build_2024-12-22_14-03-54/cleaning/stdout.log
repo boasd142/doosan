@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/cleaning/cleaning.egg-info/PKG-INFO
+writing dependency_links to ../../build/cleaning/cleaning.egg-info/dependency_links.txt
+writing entry points to ../../build/cleaning/cleaning.egg-info/entry_points.txt
+writing requirements to ../../build/cleaning/cleaning.egg-info/requires.txt
+writing top-level names to ../../build/cleaning/cleaning.egg-info/top_level.txt
+reading manifest file '../../build/cleaning/cleaning.egg-info/SOURCES.txt'
+writing manifest file '../../build/cleaning/cleaning.egg-info/SOURCES.txt'
+running build
+running build_py
+copying cleaning/find.py -> /home/rokey/Desktop/ros_ws/build/cleaning/build/lib/cleaning
+running install
+running install_lib
+copying /home/rokey/Desktop/ros_ws/build/cleaning/build/lib/cleaning/find.py -> /home/rokey/Desktop/ros_ws/install/cleaning/lib/python3.10/site-packages/cleaning
+byte-compiling /home/rokey/Desktop/ros_ws/install/cleaning/lib/python3.10/site-packages/cleaning/find.py to find.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/rokey/Desktop/ros_ws/install/cleaning/lib/python3.10/site-packages/cleaning-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/cleaning/cleaning.egg-info to /home/rokey/Desktop/ros_ws/install/cleaning/lib/python3.10/site-packages/cleaning-0.0.0-py3.10.egg-info
+running install_scripts
+Installing bok script to /home/rokey/Desktop/ros_ws/install/cleaning/lib/cleaning
+Installing find script to /home/rokey/Desktop/ros_ws/install/cleaning/lib/cleaning
+Installing move script to /home/rokey/Desktop/ros_ws/install/cleaning/lib/cleaning
+writing list of installed files to '/home/rokey/Desktop/ros_ws/build/cleaning/install.log'

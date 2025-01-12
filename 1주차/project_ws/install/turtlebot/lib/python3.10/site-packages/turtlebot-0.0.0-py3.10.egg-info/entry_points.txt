@@ -1,0 +1,21 @@
+[console_scripts]
+menu1_gui = turtlebot.menu1_gui:main
+menu2_gui = turtlebot.menu2_gui:main
+menu3_gui = turtlebot.menu3_gui:main
+menu4_gui = turtlebot.menu4_gui:main
+menu5_gui = turtlebot.menu5_gui:main
+menu6_gui = turtlebot.menu6_gui:main
+menu7_gui = turtlebot.menu7_gui:main
+menu8_gui = turtlebot.menu8_gui:main
+menu9_gui = turtlebot.menu9_gui:main
+menu_gui = turtlebot.menu_gui:main
+menu_sub = turtlebot.menu_sub:main
+order_list = turtlebot.order_list:main
+pub_topic = turtlebot.pub_topic:main
+robot_gui = turtlebot.robot_gui:main
+send_goal = turtlebot.send_goal:main
+sub_topic = turtlebot.sub_topic:main
+turtle3_gui = turtlebot_gui.turtlebot_gui:main
+turtle3_gui2 = turtlebot_gui.turtlebot_gui2:main
+turtlebot3_gui3 = turtlebot.turtlebot3_gui3:main
+

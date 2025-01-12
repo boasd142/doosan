@@ -1,0 +1,39 @@
+[1.497s] Invoking command in '/home/bok/ff_ws/src/project': PYTHONPATH=/home/bok/ff_ws/build/project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bok/ff_ws/install/project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/project build --build-base /home/bok/ff_ws/build/project/build install --record /home/bok/ff_ws/build/project/install.log --single-version-externally-managed install_data
+[1.697s] /home/bok/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[1.697s]   warnings.warn(msg)
+[1.867s] running egg_info
+[1.904s] writing ../../build/project/project.egg-info/PKG-INFO
+[1.904s] writing dependency_links to ../../build/project/project.egg-info/dependency_links.txt
+[1.906s] writing entry points to ../../build/project/project.egg-info/entry_points.txt
+[1.907s] writing requirements to ../../build/project/project.egg-info/requires.txt
+[1.907s] writing top-level names to ../../build/project/project.egg-info/top_level.txt
+[2.006s] reading manifest file '../../build/project/project.egg-info/SOURCES.txt'
+[2.010s] writing manifest file '../../build/project/project.egg-info/SOURCES.txt'
+[2.011s] running build
+[2.011s] running build_py
+[2.013s] copying project/server_test.py -> /home/bok/ff_ws/build/project/build/lib/project
+[2.014s] copying project/control_tower_server.py -> /home/bok/ff_ws/build/project/build/lib/project
+[2.015s] copying project/control_tower.py -> /home/bok/ff_ws/build/project/build/lib/project
+[2.015s] copying project/camera.py -> /home/bok/ff_ws/build/project/build/lib/project
+[2.016s] copying project/tower_test.py -> /home/bok/ff_ws/build/project/build/lib/project
+[2.016s] copying project/camera_test.py -> /home/bok/ff_ws/build/project/build/lib/project
+[2.016s] copying project/__init__.py -> /home/bok/ff_ws/build/project/build/lib/project
+[2.016s] copying project/serial_test.py -> /home/bok/ff_ws/build/project/build/lib/project
+[2.017s] running install
+[2.027s] running install_lib
+[2.075s] copying /home/bok/ff_ws/build/project/build/lib/project/server_test.py -> /home/bok/ff_ws/install/project/lib/python3.10/site-packages/project
+[2.075s] byte-compiling /home/bok/ff_ws/install/project/lib/python3.10/site-packages/project/server_test.py to server_test.cpython-310.pyc
+[2.081s] running install_data
+[2.082s] copying resource/project -> /home/bok/ff_ws/install/project/share/ament_index/resource_index/packages
+[2.082s] copying package.xml -> /home/bok/ff_ws/install/project/share/project
+[2.082s] running install_egg_info
+[2.126s] removing '/home/bok/ff_ws/install/project/lib/python3.10/site-packages/project-0.0.0-py3.10.egg-info' (and everything under it)
+[2.129s] Copying ../../build/project/project.egg-info to /home/bok/ff_ws/install/project/lib/python3.10/site-packages/project-0.0.0-py3.10.egg-info
+[2.130s] running install_scripts
+[2.499s] Installing camera script to /home/bok/ff_ws/install/project/lib/project
+[2.500s] Installing control_tower script to /home/bok/ff_ws/install/project/lib/project
+[2.501s] Installing server_test script to /home/bok/ff_ws/install/project/lib/project
+[2.501s] Installing sub script to /home/bok/ff_ws/install/project/lib/project
+[2.502s] Installing tower_test script to /home/bok/ff_ws/install/project/lib/project
+[2.502s] writing list of installed files to '/home/bok/ff_ws/build/project/install.log'
+[2.557s] Invoked command in '/home/bok/ff_ws/src/project' returned '0': PYTHONPATH=/home/bok/ff_ws/build/project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bok/ff_ws/install/project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/project build --build-base /home/bok/ff_ws/build/project/build install --record /home/bok/ff_ws/build/project/install.log --single-version-externally-managed install_data

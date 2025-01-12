@@ -1,0 +1,28 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/bok/ws_urdf/build/urdf_tutorial",
+        "/home/bok/ws_urdf/install/urdf_tutorial/lib/python3.10/site-packages",
+        "/home/bok/ws_urdf/build/car_tutorial",
+        "/home/bok/ws_urdf/install/car_tutorial/lib/python3.10/site-packages",
+        "/home/bok/baby_ws/install/bossbaby/lib/python3.10/site-packages",
+        "/home/bok/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages",
+        "/home/bok/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages",
+        "/home/bok/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages",
+        "/home/bok/ros2_ws/install/common2/lib/common2/imp"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/bok/ws_urdf/build/urdf_tutorial",
+        "/home/bok/ws_urdf/install/urdf_tutorial/lib/python3.10/site-packages",
+        "/home/bok/ws_urdf/build/car_tutorial",
+        "/home/bok/ws_urdf/install/car_tutorial/lib/python3.10/site-packages",
+        "/home/bok/baby_ws/install/bossbaby/lib/python3.10/site-packages",
+        "/home/bok/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages",
+        "/home/bok/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages",
+        "/home/bok/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages",
+        "/home/bok/ros2_ws/install/common2/lib/common2/imp"
+    ]
+}

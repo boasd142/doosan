@@ -1,0 +1,30 @@
+[1.604s] Invoking command in '/home/bok/project_ws/src/turtlebot': PYTHONPATH=/home/bok/project_ws/build/turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot build --build-base /home/bok/project_ws/build/turtlebot/build install --record /home/bok/project_ws/build/turtlebot/install.log --single-version-externally-managed install_data
+[2.095s] running egg_info
+[2.095s] writing ../../build/turtlebot/turtlebot.egg-info/PKG-INFO
+[2.096s] writing dependency_links to ../../build/turtlebot/turtlebot.egg-info/dependency_links.txt
+[2.096s] writing entry points to ../../build/turtlebot/turtlebot.egg-info/entry_points.txt
+[2.096s] writing requirements to ../../build/turtlebot/turtlebot.egg-info/requires.txt
+[2.096s] writing top-level names to ../../build/turtlebot/turtlebot.egg-info/top_level.txt
+[2.099s] reading manifest file '../../build/turtlebot/turtlebot.egg-info/SOURCES.txt'
+[2.100s] writing manifest file '../../build/turtlebot/turtlebot.egg-info/SOURCES.txt'
+[2.101s] running build
+[2.101s] running build_py
+[2.101s] copying turtlebot/menu_gui.py -> /home/bok/project_ws/build/turtlebot/build/lib/turtlebot
+[2.101s] running install
+[2.102s] running install_lib
+[2.103s] copying /home/bok/project_ws/build/turtlebot/build/lib/turtlebot/menu_gui.py -> /home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot
+[2.104s] byte-compiling /home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot/menu_gui.py to menu_gui.cpython-310.pyc
+[2.107s] running install_data
+[2.108s] running install_egg_info
+[2.111s] removing '/home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot-0.0.0-py3.10.egg-info' (and everything under it)
+[2.112s] Copying ../../build/turtlebot/turtlebot.egg-info to /home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot-0.0.0-py3.10.egg-info
+[2.112s] running install_scripts
+[2.136s] Installing menu_gui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+[2.137s] Installing menu_sub script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+[2.137s] Installing pub_topic script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+[2.137s] Installing send_goal script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+[2.137s] Installing sub_topic script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+[2.137s] Installing turtle3_gui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+[2.137s] Installing turtle3_gui2 script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+[2.138s] writing list of installed files to '/home/bok/project_ws/build/turtlebot/install.log'
+[2.172s] Invoked command in '/home/bok/project_ws/src/turtlebot' returned '0': PYTHONPATH=/home/bok/project_ws/build/turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot build --build-base /home/bok/project_ws/build/turtlebot/build install --record /home/bok/project_ws/build/turtlebot/install.log --single-version-externally-managed install_data

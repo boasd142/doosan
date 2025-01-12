@@ -1,0 +1,6 @@
+[console_scripts]
+camera = project.camera:main
+control_tower = project.control_tower:main
+fix_rotation = project.fix_rotation:main
+mani_control = project.subscription:main
+server = project.control_tower_server:main

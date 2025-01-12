@@ -1,0 +1,35 @@
+[0.994s] Invoking command in '/home/bok/project_ws/src/turtlebot': LD_LIBRARY_PATH=/home/bok/project_ws/install/order_msgs/lib:/home/bok/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/bok/ros2_ws/install/ros_study_msgs/lib:/home/bok/ros2_ws/src/install/ros_study_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/bok/project_ws/build/turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot build --build-base /home/bok/project_ws/build/turtlebot/build install --record /home/bok/project_ws/build/turtlebot/install.log --single-version-externally-managed install_data
+[1.405s] running egg_info
+[1.405s] writing ../../build/turtlebot/turtlebot.egg-info/PKG-INFO
+[1.406s] writing dependency_links to ../../build/turtlebot/turtlebot.egg-info/dependency_links.txt
+[1.406s] writing entry points to ../../build/turtlebot/turtlebot.egg-info/entry_points.txt
+[1.406s] writing requirements to ../../build/turtlebot/turtlebot.egg-info/requires.txt
+[1.407s] writing top-level names to ../../build/turtlebot/turtlebot.egg-info/top_level.txt
+[1.410s] reading manifest file '../../build/turtlebot/turtlebot.egg-info/SOURCES.txt'
+[1.411s] writing manifest file '../../build/turtlebot/turtlebot.egg-info/SOURCES.txt'
+[1.411s] running build
+[1.411s] running build_py
+[1.411s] copying turtlebot/order_list.py -> /home/bok/project_ws/build/turtlebot/build/lib/turtlebot
+[1.412s] copying turtlebot/menu_gui.py -> /home/bok/project_ws/build/turtlebot/build/lib/turtlebot
+[1.412s] running install
+[1.413s] running install_lib
+[1.414s] copying /home/bok/project_ws/build/turtlebot/build/lib/turtlebot/order_list.py -> /home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot
+[1.414s] copying /home/bok/project_ws/build/turtlebot/build/lib/turtlebot/menu_gui.py -> /home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot
+[1.415s] byte-compiling /home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot/order_list.py to order_list.cpython-310.pyc
+[1.417s] byte-compiling /home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot/menu_gui.py to menu_gui.cpython-310.pyc
+[1.420s] running install_data
+[1.420s] running install_egg_info
+[1.423s] removing '/home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot-0.0.0-py3.10.egg-info' (and everything under it)
+[1.423s] Copying ../../build/turtlebot/turtlebot.egg-info to /home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot-0.0.0-py3.10.egg-info
+[1.424s] running install_scripts
+[1.451s] Installing menu_gui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+[1.451s] Installing menu_sub script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+[1.451s] Installing order_list script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+[1.452s] Installing pub_topic script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+[1.452s] Installing robotGui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+[1.452s] Installing send_goal script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+[1.452s] Installing sub_topic script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+[1.452s] Installing turtle3_gui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+[1.452s] Installing turtle3_gui2 script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+[1.453s] writing list of installed files to '/home/bok/project_ws/build/turtlebot/install.log'
+[1.489s] Invoked command in '/home/bok/project_ws/src/turtlebot' returned '0': LD_LIBRARY_PATH=/home/bok/project_ws/install/order_msgs/lib:/home/bok/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/bok/ros2_ws/install/ros_study_msgs/lib:/home/bok/ros2_ws/src/install/ros_study_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/bok/project_ws/build/turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot build --build-base /home/bok/project_ws/build/turtlebot/build install --record /home/bok/project_ws/build/turtlebot/install.log --single-version-externally-managed install_data

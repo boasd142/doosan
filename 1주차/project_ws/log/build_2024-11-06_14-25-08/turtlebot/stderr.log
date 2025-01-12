@@ -1,0 +1,5 @@
+  File "/home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot/menu_gui.py", line 197
+    """
+    ^
+SyntaxError: unterminated triple-quoted string literal (detected at line 197)
+

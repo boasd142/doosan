@@ -1,0 +1,6 @@
+source;share/bossbaby/hook/pythonpath.ps1
+source;share/bossbaby/hook/pythonpath.dsv
+source;share/bossbaby/hook/pythonpath.sh
+source;share/bossbaby/hook/ament_prefix_path.ps1
+source;share/bossbaby/hook/ament_prefix_path.dsv
+source;share/bossbaby/hook/ament_prefix_path.sh

@@ -1,0 +1,5 @@
+  File "/home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot/menu_gui.py", line 82
+    tk.Button(self.root, text="+", command=self.increase_table_num).grid*row=row+9,column=2, padx=10)
+                                                                                                    ^
+SyntaxError: unmatched ')'
+

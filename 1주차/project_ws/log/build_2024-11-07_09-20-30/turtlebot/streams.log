@@ -1,0 +1,69 @@
+[1.704s] Invoking command in '/home/bok/project_ws/src/turtlebot': LD_LIBRARY_PATH=/home/bok/project_ws/install/order_msgs/lib:/home/bok/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/bok/ros2_ws/install/ros_study_msgs/lib:/home/bok/ros2_ws/src/install/ros_study_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/bok/project_ws/build/turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot build --build-base /home/bok/project_ws/build/turtlebot/build install --record /home/bok/project_ws/build/turtlebot/install.log --single-version-externally-managed install_data
+[2.103s] running egg_info
+[2.103s] writing ../../build/turtlebot/turtlebot.egg-info/PKG-INFO
+[2.106s] writing dependency_links to ../../build/turtlebot/turtlebot.egg-info/dependency_links.txt
+[2.106s] writing entry points to ../../build/turtlebot/turtlebot.egg-info/entry_points.txt
+[2.106s] writing requirements to ../../build/turtlebot/turtlebot.egg-info/requires.txt
+[2.106s] writing top-level names to ../../build/turtlebot/turtlebot.egg-info/top_level.txt
+[2.108s] reading manifest file '../../build/turtlebot/turtlebot.egg-info/SOURCES.txt'
+[2.110s] writing manifest file '../../build/turtlebot/turtlebot.egg-info/SOURCES.txt'
+[2.111s] running build
+[2.111s] running build_py
+[2.111s] copying turtlebot/menu8_gui.py -> /home/bok/project_ws/build/turtlebot/build/lib/turtlebot
+[2.111s] copying turtlebot/menu1_gui.py -> /home/bok/project_ws/build/turtlebot/build/lib/turtlebot
+[2.112s] copying turtlebot/menu7_gui.py -> /home/bok/project_ws/build/turtlebot/build/lib/turtlebot
+[2.112s] copying turtlebot/menu2_gui.py -> /home/bok/project_ws/build/turtlebot/build/lib/turtlebot
+[2.112s] copying turtlebot/menu_gui.py -> /home/bok/project_ws/build/turtlebot/build/lib/turtlebot
+[2.112s] copying turtlebot/menu4_gui.py -> /home/bok/project_ws/build/turtlebot/build/lib/turtlebot
+[2.112s] copying turtlebot/menu6_gui.py -> /home/bok/project_ws/build/turtlebot/build/lib/turtlebot
+[2.114s] copying turtlebot/menu3_gui.py -> /home/bok/project_ws/build/turtlebot/build/lib/turtlebot
+[2.114s] copying turtlebot/menu9_gui.py -> /home/bok/project_ws/build/turtlebot/build/lib/turtlebot
+[2.114s] copying turtlebot/menu5_gui.py -> /home/bok/project_ws/build/turtlebot/build/lib/turtlebot
+[2.114s] running install
+[2.115s] running install_lib
+[2.118s] copying /home/bok/project_ws/build/turtlebot/build/lib/turtlebot/menu8_gui.py -> /home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot
+[2.119s] copying /home/bok/project_ws/build/turtlebot/build/lib/turtlebot/menu1_gui.py -> /home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot
+[2.119s] copying /home/bok/project_ws/build/turtlebot/build/lib/turtlebot/menu7_gui.py -> /home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot
+[2.119s] copying /home/bok/project_ws/build/turtlebot/build/lib/turtlebot/menu2_gui.py -> /home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot
+[2.119s] copying /home/bok/project_ws/build/turtlebot/build/lib/turtlebot/menu_gui.py -> /home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot
+[2.119s] copying /home/bok/project_ws/build/turtlebot/build/lib/turtlebot/menu4_gui.py -> /home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot
+[2.119s] copying /home/bok/project_ws/build/turtlebot/build/lib/turtlebot/menu6_gui.py -> /home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot
+[2.119s] copying /home/bok/project_ws/build/turtlebot/build/lib/turtlebot/menu3_gui.py -> /home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot
+[2.119s] copying /home/bok/project_ws/build/turtlebot/build/lib/turtlebot/menu9_gui.py -> /home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot
+[2.120s] copying /home/bok/project_ws/build/turtlebot/build/lib/turtlebot/menu5_gui.py -> /home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot
+[2.121s] byte-compiling /home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot/menu8_gui.py to menu8_gui.cpython-310.pyc
+[2.125s] byte-compiling /home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot/menu1_gui.py to menu1_gui.cpython-310.pyc
+[2.127s] byte-compiling /home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot/menu7_gui.py to menu7_gui.cpython-310.pyc
+[2.130s] byte-compiling /home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot/menu2_gui.py to menu2_gui.cpython-310.pyc
+[2.134s] byte-compiling /home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot/menu_gui.py to menu_gui.cpython-310.pyc
+[2.135s] byte-compiling /home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot/menu4_gui.py to menu4_gui.cpython-310.pyc
+[2.138s] byte-compiling /home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot/menu6_gui.py to menu6_gui.cpython-310.pyc
+[2.141s] byte-compiling /home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot/menu3_gui.py to menu3_gui.cpython-310.pyc
+[2.143s] byte-compiling /home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot/menu9_gui.py to menu9_gui.cpython-310.pyc
+[2.147s] byte-compiling /home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot/menu5_gui.py to menu5_gui.cpython-310.pyc
+[2.148s] running install_data
+[2.148s] copying package.xml -> /home/bok/project_ws/install/turtlebot/share/turtlebot
+[2.149s] running install_egg_info
+[2.152s] removing '/home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot-0.0.0-py3.10.egg-info' (and everything under it)
+[2.154s] Copying ../../build/turtlebot/turtlebot.egg-info to /home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot-0.0.0-py3.10.egg-info
+[2.155s] running install_scripts
+[2.189s] Installing menu1_gui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+[2.189s] Installing menu2_gui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+[2.189s] Installing menu3_gui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+[2.189s] Installing menu4_gui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+[2.189s] Installing menu5_gui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+[2.189s] Installing menu6_gui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+[2.189s] Installing menu7_gui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+[2.190s] Installing menu8_gui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+[2.190s] Installing menu9_gui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+[2.190s] Installing menu_gui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+[2.190s] Installing menu_sub script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+[2.190s] Installing order_list script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+[2.190s] Installing pub_topic script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+[2.191s] Installing robotGui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+[2.191s] Installing send_goal script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+[2.191s] Installing sub_topic script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+[2.191s] Installing turtle3_gui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+[2.192s] Installing turtle3_gui2 script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+[2.192s] writing list of installed files to '/home/bok/project_ws/build/turtlebot/install.log'
+[2.243s] Invoked command in '/home/bok/project_ws/src/turtlebot' returned '0': LD_LIBRARY_PATH=/home/bok/project_ws/install/order_msgs/lib:/home/bok/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/bok/ros2_ws/install/ros_study_msgs/lib:/home/bok/ros2_ws/src/install/ros_study_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/bok/project_ws/build/turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot build --build-base /home/bok/project_ws/build/turtlebot/build install --record /home/bok/project_ws/build/turtlebot/install.log --single-version-externally-managed install_data

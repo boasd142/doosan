@@ -1,0 +1,147 @@
+[0.297s] Invoking command in '/home/bok/ff_ws/build/type': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bok/ff_ws/install/project:/home/bok/multitb_ws/install/get_data:/home/bok/ws_urdf/install/urdf_tutorial:/home/bok/ws_urdf/install/car_tutorial:/home/bok/turtlebot3_ws/install/turtlebot3_teleop:/home/bok/turtlebot3_ws/install/turtlebot3_example:/home/bok/baby_ws/install/bossbaby:/opt/ros/humble /usr/bin/cmake --build /home/bok/ff_ws/build/type -- -j4 -l4
+[0.329s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.500s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.528s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.531s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.538s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.549s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.564s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.578s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.916s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.318s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.471s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.502s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.534s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.534s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.535s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.572s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.584s] -- Added test 'lint_cmake' to check CMake code style
+[1.585s] -- Added test 'xmllint' to check XML markup files
+[1.588s] -- Configuring done
+[1.637s] -- Generating done
+[1.642s] -- Build files have been written to: /home/bok/ff_ws/build/type
+[1.694s] [35m[1mConsolidate compiler generated dependencies of target type__rosidl_generator_c[0m
+[1.715s] [  3%] Built target type__cpp
+[1.726s] [ 12%] Built target type__rosidl_generator_c
+[1.748s] [35m[1mConsolidate compiler generated dependencies of target type__rosidl_typesupport_introspection_cpp[0m
+[1.748s] [35m[1mConsolidate compiler generated dependencies of target type__rosidl_typesupport_fastrtps_cpp[0m
+[1.750s] [ 12%] Built target ament_cmake_python_copy_type
+[1.768s] [35m[1mConsolidate compiler generated dependencies of target type__rosidl_typesupport_cpp[0m
+[1.776s] [35m[1mConsolidate compiler generated dependencies of target type__rosidl_typesupport_fastrtps_c[0m
+[1.794s] [ 22%] Built target type__rosidl_typesupport_fastrtps_cpp
+[1.802s] [ 32%] Built target type__rosidl_typesupport_introspection_cpp
+[1.813s] [ 41%] Built target type__rosidl_typesupport_cpp
+[1.818s] [ 51%] Built target type__rosidl_typesupport_fastrtps_c
+[1.836s] [35m[1mConsolidate compiler generated dependencies of target type__rosidl_typesupport_c[0m
+[1.839s] [35m[1mConsolidate compiler generated dependencies of target type__rosidl_typesupport_introspection_c[0m
+[1.879s] [ 61%] Built target type__rosidl_typesupport_c
+[1.882s] [ 70%] Built target type__rosidl_typesupport_introspection_c
+[1.942s] [ 70%] Built target type
+[1.982s] [ 74%] Built target type__py
+[2.002s] [35m[1mConsolidate compiler generated dependencies of target type__rosidl_generator_py[0m
+[2.023s] [ 80%] Built target type__rosidl_generator_py
+[2.060s] [35m[1mConsolidate compiler generated dependencies of target type__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.073s] [35m[1mConsolidate compiler generated dependencies of target type__rosidl_typesupport_introspection_c__pyext[0m
+[2.078s] [35m[1mConsolidate compiler generated dependencies of target type__rosidl_typesupport_c__pyext[0m
+[2.100s] [ 87%] Built target type__rosidl_typesupport_fastrtps_c__pyext
+[2.116s] [ 93%] Built target type__rosidl_typesupport_introspection_c__pyext
+[2.124s] [100%] Built target type__rosidl_typesupport_c__pyext
+[2.354s] running egg_info
+[2.394s] writing type.egg-info/PKG-INFO
+[2.397s] writing dependency_links to type.egg-info/dependency_links.txt
+[2.397s] writing top-level names to type.egg-info/top_level.txt
+[2.510s] reading manifest file 'type.egg-info/SOURCES.txt'
+[2.511s] writing manifest file 'type.egg-info/SOURCES.txt'
+[2.553s] [100%] Built target ament_cmake_python_build_type_egg
+[2.569s] Invoked command in '/home/bok/ff_ws/build/type' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bok/ff_ws/install/project:/home/bok/multitb_ws/install/get_data:/home/bok/ws_urdf/install/urdf_tutorial:/home/bok/ws_urdf/install/car_tutorial:/home/bok/turtlebot3_ws/install/turtlebot3_teleop:/home/bok/turtlebot3_ws/install/turtlebot3_example:/home/bok/baby_ws/install/bossbaby:/opt/ros/humble /usr/bin/cmake --build /home/bok/ff_ws/build/type -- -j4 -l4
+[2.657s] Invoking command in '/home/bok/ff_ws/build/type': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bok/ff_ws/install/project:/home/bok/multitb_ws/install/get_data:/home/bok/ws_urdf/install/urdf_tutorial:/home/bok/ws_urdf/install/car_tutorial:/home/bok/turtlebot3_ws/install/turtlebot3_teleop:/home/bok/turtlebot3_ws/install/turtlebot3_example:/home/bok/baby_ws/install/bossbaby:/opt/ros/humble /usr/bin/cmake --install /home/bok/ff_ws/build/type
+[2.666s] -- Install configuration: ""
+[2.667s] -- Up-to-date: /home/bok/ff_ws/install/type/share/ament_index/resource_index/rosidl_interfaces/type
+[2.668s] -- Up-to-date: /home/bok/ff_ws/install/type/include/type/type
+[2.668s] -- Up-to-date: /home/bok/ff_ws/install/type/include/type/type/srv
+[2.668s] -- Up-to-date: /home/bok/ff_ws/install/type/include/type/type/srv/start_time.h
+[2.668s] -- Up-to-date: /home/bok/ff_ws/install/type/include/type/type/srv/detail
+[2.669s] -- Up-to-date: /home/bok/ff_ws/install/type/include/type/type/srv/detail/start_time__type_support.h
+[2.669s] -- Up-to-date: /home/bok/ff_ws/install/type/include/type/type/srv/detail/start_time__functions.c
+[2.670s] -- Up-to-date: /home/bok/ff_ws/install/type/include/type/type/srv/detail/start_time__functions.h
+[2.670s] -- Up-to-date: /home/bok/ff_ws/install/type/include/type/type/srv/detail/start_time__struct.h
+[2.670s] -- Up-to-date: /home/bok/ff_ws/install/type/include/type/type/msg
+[2.671s] -- Up-to-date: /home/bok/ff_ws/install/type/include/type/type/msg/rosidl_generator_c__visibility_control.h
+[2.671s] -- Up-to-date: /home/bok/ff_ws/install/type/share/type/environment/library_path.sh
+[2.671s] -- Installing: /home/bok/ff_ws/install/type/share/type/environment/library_path.dsv
+[2.671s] -- Up-to-date: /home/bok/ff_ws/install/type/lib/libtype__rosidl_generator_c.so
+[2.671s] -- Up-to-date: /home/bok/ff_ws/install/type/include/type/type
+[2.671s] -- Up-to-date: /home/bok/ff_ws/install/type/include/type/type/srv
+[2.671s] -- Up-to-date: /home/bok/ff_ws/install/type/include/type/type/srv/detail
+[2.672s] -- Up-to-date: /home/bok/ff_ws/install/type/include/type/type/srv/detail/start_time__rosidl_typesupport_fastrtps_c.h
+[2.672s] -- Up-to-date: /home/bok/ff_ws/install/type/include/type/type/msg
+[2.672s] -- Up-to-date: /home/bok/ff_ws/install/type/include/type/type/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.672s] -- Up-to-date: /home/bok/ff_ws/install/type/lib/libtype__rosidl_typesupport_fastrtps_c.so
+[2.672s] -- Up-to-date: /home/bok/ff_ws/install/type/include/type/type
+[2.672s] -- Up-to-date: /home/bok/ff_ws/install/type/include/type/type/srv
+[2.672s] -- Up-to-date: /home/bok/ff_ws/install/type/include/type/type/srv/start_time.hpp
+[2.672s] -- Up-to-date: /home/bok/ff_ws/install/type/include/type/type/srv/detail
+[2.673s] -- Up-to-date: /home/bok/ff_ws/install/type/include/type/type/srv/detail/start_time__struct.hpp
+[2.673s] -- Up-to-date: /home/bok/ff_ws/install/type/include/type/type/srv/detail/start_time__traits.hpp
+[2.673s] -- Up-to-date: /home/bok/ff_ws/install/type/include/type/type/srv/detail/start_time__builder.hpp
+[2.673s] -- Up-to-date: /home/bok/ff_ws/install/type/include/type/type
+[2.673s] -- Up-to-date: /home/bok/ff_ws/install/type/include/type/type/srv
+[2.673s] -- Up-to-date: /home/bok/ff_ws/install/type/include/type/type/srv/detail
+[2.673s] -- Up-to-date: /home/bok/ff_ws/install/type/include/type/type/srv/detail/start_time__rosidl_typesupport_fastrtps_cpp.hpp
+[2.673s] -- Up-to-date: /home/bok/ff_ws/install/type/include/type/type/srv/detail/dds_fastrtps
+[2.673s] -- Up-to-date: /home/bok/ff_ws/install/type/include/type/type/msg
+[2.675s] -- Up-to-date: /home/bok/ff_ws/install/type/include/type/type/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.675s] -- Up-to-date: /home/bok/ff_ws/install/type/lib/libtype__rosidl_typesupport_fastrtps_cpp.so
+[2.675s] -- Up-to-date: /home/bok/ff_ws/install/type/include/type/type
+[2.675s] -- Up-to-date: /home/bok/ff_ws/install/type/include/type/type/srv
+[2.676s] -- Up-to-date: /home/bok/ff_ws/install/type/include/type/type/srv/detail
+[2.676s] -- Up-to-date: /home/bok/ff_ws/install/type/include/type/type/srv/detail/start_time__type_support.c
+[2.676s] -- Up-to-date: /home/bok/ff_ws/install/type/include/type/type/srv/detail/start_time__rosidl_typesupport_introspection_c.h
+[2.676s] -- Up-to-date: /home/bok/ff_ws/install/type/include/type/type/msg
+[2.676s] -- Up-to-date: /home/bok/ff_ws/install/type/include/type/type/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.676s] -- Up-to-date: /home/bok/ff_ws/install/type/lib/libtype__rosidl_typesupport_introspection_c.so
+[2.676s] -- Up-to-date: /home/bok/ff_ws/install/type/lib/libtype__rosidl_typesupport_c.so
+[2.676s] -- Up-to-date: /home/bok/ff_ws/install/type/include/type/type
+[2.677s] -- Up-to-date: /home/bok/ff_ws/install/type/include/type/type/srv
+[2.677s] -- Up-to-date: /home/bok/ff_ws/install/type/include/type/type/srv/detail
+[2.677s] -- Up-to-date: /home/bok/ff_ws/install/type/include/type/type/srv/detail/start_time__rosidl_typesupport_introspection_cpp.hpp
+[2.677s] -- Up-to-date: /home/bok/ff_ws/install/type/include/type/type/srv/detail/start_time__type_support.cpp
+[2.679s] -- Up-to-date: /home/bok/ff_ws/install/type/lib/libtype__rosidl_typesupport_introspection_cpp.so
+[2.679s] -- Up-to-date: /home/bok/ff_ws/install/type/lib/libtype__rosidl_typesupport_cpp.so
+[2.679s] -- Up-to-date: /home/bok/ff_ws/install/type/share/type/environment/pythonpath.sh
+[2.679s] -- Installing: /home/bok/ff_ws/install/type/share/type/environment/pythonpath.dsv
+[2.680s] -- Up-to-date: /home/bok/ff_ws/install/type/local/lib/python3.10/dist-packages/type-0.0.0-py3.10.egg-info
+[2.680s] -- Installing: /home/bok/ff_ws/install/type/local/lib/python3.10/dist-packages/type-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.680s] -- Installing: /home/bok/ff_ws/install/type/local/lib/python3.10/dist-packages/type-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.680s] -- Installing: /home/bok/ff_ws/install/type/local/lib/python3.10/dist-packages/type-0.0.0-py3.10.egg-info/PKG-INFO
+[2.680s] -- Installing: /home/bok/ff_ws/install/type/local/lib/python3.10/dist-packages/type-0.0.0-py3.10.egg-info/top_level.txt
+[2.680s] -- Up-to-date: /home/bok/ff_ws/install/type/local/lib/python3.10/dist-packages/type
+[2.680s] -- Up-to-date: /home/bok/ff_ws/install/type/local/lib/python3.10/dist-packages/type/type_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.680s] -- Up-to-date: /home/bok/ff_ws/install/type/local/lib/python3.10/dist-packages/type/libtype__rosidl_generator_py.so
+[2.681s] -- Up-to-date: /home/bok/ff_ws/install/type/local/lib/python3.10/dist-packages/type/_type_s.ep.rosidl_typesupport_c.c
+[2.681s] -- Up-to-date: /home/bok/ff_ws/install/type/local/lib/python3.10/dist-packages/type/srv
+[2.681s] -- Up-to-date: /home/bok/ff_ws/install/type/local/lib/python3.10/dist-packages/type/srv/_start_time_s.c
+[2.681s] -- Up-to-date: /home/bok/ff_ws/install/type/local/lib/python3.10/dist-packages/type/srv/_start_time.py
+[2.681s] -- Up-to-date: /home/bok/ff_ws/install/type/local/lib/python3.10/dist-packages/type/srv/__init__.py
+[2.681s] -- Up-to-date: /home/bok/ff_ws/install/type/local/lib/python3.10/dist-packages/type/type_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.681s] -- Up-to-date: /home/bok/ff_ws/install/type/local/lib/python3.10/dist-packages/type/type_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.681s] -- Up-to-date: /home/bok/ff_ws/install/type/local/lib/python3.10/dist-packages/type/_type_s.ep.rosidl_typesupport_introspection_c.c
+[2.682s] -- Installing: /home/bok/ff_ws/install/type/local/lib/python3.10/dist-packages/type/__init__.py
+[2.682s] -- Up-to-date: /home/bok/ff_ws/install/type/local/lib/python3.10/dist-packages/type/_type_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.736s] Listing '/home/bok/ff_ws/install/type/local/lib/python3.10/dist-packages/type'...
+[2.736s] Compiling '/home/bok/ff_ws/install/type/local/lib/python3.10/dist-packages/type/__init__.py'...
+[2.736s] Listing '/home/bok/ff_ws/install/type/local/lib/python3.10/dist-packages/type/srv'...
+[2.742s] -- Up-to-date: /home/bok/ff_ws/install/type/local/lib/python3.10/dist-packages/type/type_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.743s] -- Up-to-date: /home/bok/ff_ws/install/type/local/lib/python3.10/dist-packages/type/type_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.743s] -- Up-to-date: /home/bok/ff_ws/install/type/local/lib/python3.10/dist-packages/type/type_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.744s] -- Up-to-date: /home/bok/ff_ws/install/type/lib/libtype__rosidl_generator_py.so
+[2.745s] -- Up-to-date: /home/bok/ff_ws/install/type/share/type/srv/StartTime.idl
+[2.747s] -- Up-to-date: /home/bok/ff_ws/install/type/share/type/srv/StartTime.srv
+[2.747s] -- Up-to-date: /home/bok/ff_ws/install/type/share/type/srv/StartTime_Request.msg
+[2.747s] [31mCMake Error at cmake_install.cmake:375 (file):
+[2.748s]   file INSTALL cannot find "/home/bok/ff_ws/src/type/launch": No such file or
+[2.748s]   directory.
+[2.748s] 
+[2.748s] [0m
+[2.748s] -- Up-to-date: /home/bok/ff_ws/install/type/share/type/srv/StartTime_Response.msg
+[2.749s] Invoked command in '/home/bok/ff_ws/build/type' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bok/ff_ws/install/project:/home/bok/multitb_ws/install/get_data:/home/bok/ws_urdf/install/urdf_tutorial:/home/bok/ws_urdf/install/car_tutorial:/home/bok/turtlebot3_ws/install/turtlebot3_teleop:/home/bok/turtlebot3_ws/install/turtlebot3_example:/home/bok/baby_ws/install/bossbaby:/opt/ros/humble /usr/bin/cmake --install /home/bok/ff_ws/build/type

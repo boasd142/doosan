@@ -1,0 +1,47 @@
+[0.016s] Invoking command in '/home/bok/project_ws/build/order_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bok/project_ws/install/turtlebot:/home/bok/turtlebot3_ws/install/turtlebot3_teleop:/home/bok/turtlebot3_ws/install/turtlebot3_example:/home/bok/ros2_ws/install/ros_study_py:/home/bok/ros2_ws/install/ex_calculator:/home/bok/ros2_ws/install/py_pubsub:/home/bok/ros2_ws/src/install/ros_study_py:/home/bok/ros2_ws/src/install/ex_calculator:/opt/ros/humble /usr/bin/cmake --build /home/bok/project_ws/build/order_msgs -- -j4 -l4
+[0.086s] [  3%] Built target order_msgs__cpp
+[0.091s] [ 12%] Built target order_msgs__rosidl_generator_c
+[0.115s] [ 12%] Built target ament_cmake_python_copy_order_msgs
+[0.146s] [ 22%] Built target order_msgs__rosidl_typesupport_introspection_cpp
+[0.146s] [ 32%] Built target order_msgs__rosidl_typesupport_fastrtps_cpp
+[0.147s] [ 41%] Built target order_msgs__rosidl_typesupport_cpp
+[0.169s] [ 51%] Built target order_msgs__rosidl_typesupport_fastrtps_c
+[0.185s] [ 70%] Built target order_msgs__rosidl_typesupport_c
+[0.186s] [ 70%] Built target order_msgs__rosidl_typesupport_introspection_c
+[0.212s] [ 70%] Built target order_msgs
+[0.246s] [ 74%] Built target order_msgs__py
+[0.290s] [ 80%] Built target order_msgs__rosidl_generator_py
+[0.372s] [ 83%] [32mBuilding C object CMakeFiles/order_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/order_msgs/_order_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[0.380s] [ 87%] [32mBuilding C object CMakeFiles/order_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/order_msgs/_order_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[0.383s] [ 90%] [32mBuilding C object CMakeFiles/order_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/order_msgs/_order_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[0.564s] In file included from [01m[K/home/bok/project_ws/build/order_msgs/rosidl_generator_py/order_msgs/_order_msgs_s.ep.rosidl_typesupport_introspection_c.c:338[m[K:
+[0.567s] [01m[K/home/bok/project_ws/build/order_msgs/rosidl_generator_c/order_msgs/action/detail/robot_action__struct.h:83:10:[m[K [01;31m[Kfatal error: [m[Kunique_identifier_msgs/msg/detail/uuid__struct.h: No such file or directory
+[0.567s]    83 | #include [01;31m[K"unique_identifier_msgs/msg/detail/uuid__struct.h"[m[K
+[0.567s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.567s] compilation terminated.
+[0.580s] gmake[2]: *** [CMakeFiles/order_msgs__rosidl_typesupport_introspection_c__pyext.dir/build.make:76: CMakeFiles/order_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/order_msgs/_order_msgs_s.ep.rosidl_typesupport_introspection_c.c.o] Error 1
+[0.580s] gmake[1]: *** [CMakeFiles/Makefile2:535: CMakeFiles/order_msgs__rosidl_typesupport_introspection_c__pyext.dir/all] Error 2
+[0.581s] gmake[1]: *** Waiting for unfinished jobs....
+[0.644s] In file included from [01m[K/home/bok/project_ws/build/order_msgs/rosidl_generator_py/order_msgs/_order_msgs_s.ep.rosidl_typesupport_c.c:338[m[K:
+[0.644s] [01m[K/home/bok/project_ws/build/order_msgs/rosidl_generator_c/order_msgs/action/detail/robot_action__struct.h:83:10:[m[K [01;31m[Kfatal error: [m[Kunique_identifier_msgs/msg/detail/uuid__struct.h: No such file or directory
+[0.644s]    83 | #include [01;31m[K"unique_identifier_msgs/msg/detail/uuid__struct.h"[m[K
+[0.645s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.645s] compilation terminated.
+[0.648s] gmake[2]: *** [CMakeFiles/order_msgs__rosidl_typesupport_c__pyext.dir/build.make:76: CMakeFiles/order_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/order_msgs/_order_msgs_s.ep.rosidl_typesupport_c.c.o] Error 1
+[0.650s] gmake[1]: *** [CMakeFiles/Makefile2:564: CMakeFiles/order_msgs__rosidl_typesupport_c__pyext.dir/all] Error 2
+[0.650s] In file included from [01m[K/home/bok/project_ws/build/order_msgs/rosidl_generator_py/order_msgs/_order_msgs_s.ep.rosidl_typesupport_fastrtps_c.c:338[m[K:
+[0.650s] [01m[K/home/bok/project_ws/build/order_msgs/rosidl_generator_c/order_msgs/action/detail/robot_action__struct.h:83:10:[m[K [01;31m[Kfatal error: [m[Kunique_identifier_msgs/msg/detail/uuid__struct.h: No such file or directory
+[0.650s]    83 | #include [01;31m[K"unique_identifier_msgs/msg/detail/uuid__struct.h"[m[K
+[0.650s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.650s] compilation terminated.
+[0.652s] gmake[2]: *** [CMakeFiles/order_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/build.make:76: CMakeFiles/order_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/order_msgs/_order_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o] Error 1
+[0.652s] gmake[1]: *** [CMakeFiles/Makefile2:505: CMakeFiles/order_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all] Error 2
+[0.829s] running egg_info
+[0.830s] writing order_msgs.egg-info/PKG-INFO
+[0.831s] writing dependency_links to order_msgs.egg-info/dependency_links.txt
+[0.831s] writing top-level names to order_msgs.egg-info/top_level.txt
+[0.834s] reading manifest file 'order_msgs.egg-info/SOURCES.txt'
+[0.835s] writing manifest file 'order_msgs.egg-info/SOURCES.txt'
+[0.871s] [ 90%] Built target ament_cmake_python_build_order_msgs_egg
+[0.873s] gmake: *** [Makefile:146: all] Error 2
+[0.876s] Invoked command in '/home/bok/project_ws/build/order_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bok/project_ws/install/turtlebot:/home/bok/turtlebot3_ws/install/turtlebot3_teleop:/home/bok/turtlebot3_ws/install/turtlebot3_example:/home/bok/ros2_ws/install/ros_study_py:/home/bok/ros2_ws/install/ex_calculator:/home/bok/ros2_ws/install/py_pubsub:/home/bok/ros2_ws/src/install/ros_study_py:/home/bok/ros2_ws/src/install/ex_calculator:/opt/ros/humble /usr/bin/cmake --build /home/bok/project_ws/build/order_msgs -- -j4 -l4

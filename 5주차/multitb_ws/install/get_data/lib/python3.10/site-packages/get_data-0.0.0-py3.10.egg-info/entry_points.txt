@@ -1,0 +1,5 @@
+[console_scripts]
+camera = get_data.camera:main
+get_data = get_data.get_data:main
+qt_update = get_data.qt_update:main
+thief_spawn = get_data.thief_spawn:main

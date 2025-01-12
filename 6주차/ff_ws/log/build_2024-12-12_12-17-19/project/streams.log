@@ -1,0 +1,44 @@
+[1.068s] Invoking command in '/home/bok/ff_ws/src/project': PYTHONPATH=/home/bok/ff_ws/build/project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bok/ff_ws/install/project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/project build --build-base /home/bok/ff_ws/build/project/build install --record /home/bok/ff_ws/build/project/install.log --single-version-externally-managed install_data
+[1.259s] /home/bok/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[1.259s]   warnings.warn(msg)
+[1.403s] running egg_info
+[1.427s] writing ../../build/project/project.egg-info/PKG-INFO
+[1.428s] writing dependency_links to ../../build/project/project.egg-info/dependency_links.txt
+[1.428s] writing entry points to ../../build/project/project.egg-info/entry_points.txt
+[1.429s] writing requirements to ../../build/project/project.egg-info/requires.txt
+[1.429s] writing top-level names to ../../build/project/project.egg-info/top_level.txt
+[1.478s] reading manifest file '../../build/project/project.egg-info/SOURCES.txt'
+[1.479s] writing manifest file '../../build/project/project.egg-info/SOURCES.txt'
+[1.480s] running build
+[1.480s] running build_py
+[1.480s] copying project/server_test.py -> /home/bok/ff_ws/build/project/build/lib/project
+[1.480s] copying project/control_tower_server.py -> /home/bok/ff_ws/build/project/build/lib/project
+[1.481s] copying project/control_tower.py -> /home/bok/ff_ws/build/project/build/lib/project
+[1.481s] copying project/camera.py -> /home/bok/ff_ws/build/project/build/lib/project
+[1.481s] copying project/tower_test.py -> /home/bok/ff_ws/build/project/build/lib/project
+[1.482s] copying project/camera_test.py -> /home/bok/ff_ws/build/project/build/lib/project
+[1.482s] copying project/__init__.py -> /home/bok/ff_ws/build/project/build/lib/project
+[1.482s] copying project/serial_test.py -> /home/bok/ff_ws/build/project/build/lib/project
+[1.483s] running install
+[1.488s] running install_lib
+[1.512s] copying /home/bok/ff_ws/build/project/build/lib/project/server_test.py -> /home/bok/ff_ws/install/project/lib/python3.10/site-packages/project
+[1.512s] copying /home/bok/ff_ws/build/project/build/lib/project/tower_test.py -> /home/bok/ff_ws/install/project/lib/python3.10/site-packages/project
+[1.512s] copying /home/bok/ff_ws/build/project/build/lib/project/camera_test.py -> /home/bok/ff_ws/install/project/lib/python3.10/site-packages/project
+[1.513s] byte-compiling /home/bok/ff_ws/install/project/lib/python3.10/site-packages/project/server_test.py to server_test.cpython-310.pyc
+[1.515s] Sorry: IndentationError: expected an indented block after function definition on line 88 (server_test.py, line 90)
+[1.515s] byte-compiling /home/bok/ff_ws/install/project/lib/python3.10/site-packages/project/tower_test.py to tower_test.cpython-310.pyc
+[1.518s] byte-compiling /home/bok/ff_ws/install/project/lib/python3.10/site-packages/project/camera_test.py to camera_test.cpython-310.pyc
+[1.520s] running install_data
+[1.520s] copying resource/project -> /home/bok/ff_ws/install/project/share/ament_index/resource_index/packages
+[1.520s] copying package.xml -> /home/bok/ff_ws/install/project/share/project
+[1.521s] running install_egg_info
+[1.547s] removing '/home/bok/ff_ws/install/project/lib/python3.10/site-packages/project-0.0.0-py3.10.egg-info' (and everything under it)
+[1.547s] Copying ../../build/project/project.egg-info to /home/bok/ff_ws/install/project/lib/python3.10/site-packages/project-0.0.0-py3.10.egg-info
+[1.549s] running install_scripts
+[1.762s] Installing camera script to /home/bok/ff_ws/install/project/lib/project
+[1.762s] Installing control_tower script to /home/bok/ff_ws/install/project/lib/project
+[1.762s] Installing server_test script to /home/bok/ff_ws/install/project/lib/project
+[1.762s] Installing sub script to /home/bok/ff_ws/install/project/lib/project
+[1.763s] Installing tower_test script to /home/bok/ff_ws/install/project/lib/project
+[1.763s] writing list of installed files to '/home/bok/ff_ws/build/project/install.log'
+[1.792s] Invoked command in '/home/bok/ff_ws/src/project' returned '0': PYTHONPATH=/home/bok/ff_ws/build/project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bok/ff_ws/install/project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/project build --build-base /home/bok/ff_ws/build/project/build install --record /home/bok/ff_ws/build/project/install.log --single-version-externally-managed install_data

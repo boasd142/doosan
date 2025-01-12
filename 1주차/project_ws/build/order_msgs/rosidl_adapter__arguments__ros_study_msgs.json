@@ -1,0 +1,7 @@
+{
+  "package_name": "ros_study_msgs",
+  "non_idl_tuples": [
+    "/home/bok/project_ws/src/order_msgs:msg/OrderMsg.msg",
+    "/home/bok/project_ws/src/order_msgs:srv/OrderFood.srv"
+  ]
+}

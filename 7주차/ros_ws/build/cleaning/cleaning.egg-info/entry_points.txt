@@ -1,0 +1,4 @@
+[console_scripts]
+clean = cleaning.clean:main
+find = cleaning.find:main
+

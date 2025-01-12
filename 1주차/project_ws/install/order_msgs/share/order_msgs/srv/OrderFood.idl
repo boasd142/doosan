@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from order_msgs/srv/OrderFood.srv
+// generated code does not contain a copyright notice
+
+
+module order_msgs {
+  module srv {
+    struct OrderFood_Request {
+      @verbatim (language="comment", text=
+        "주문할 항목 이름")
+      string item_name;
+    };
+    struct OrderFood_Response {
+      @verbatim (language="comment", text=
+        "주문 성공 여부")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "주문 결과 메시지")
+      string message;
+    };
+  };
+};

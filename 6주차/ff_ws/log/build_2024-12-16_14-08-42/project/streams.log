@@ -1,0 +1,40 @@
+[1.518s] Invoking command in '/home/bok/ff_ws/src/project': PYTHONPATH=/home/bok/ff_ws/build/project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bok/ff_ws/install/project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/project build --build-base /home/bok/ff_ws/build/project/build install --record /home/bok/ff_ws/build/project/install.log --single-version-externally-managed install_data
+[1.733s] /home/bok/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[1.733s]   warnings.warn(msg)
+[1.887s] running egg_info
+[1.911s] writing ../../build/project/project.egg-info/PKG-INFO
+[1.911s] writing dependency_links to ../../build/project/project.egg-info/dependency_links.txt
+[1.912s] writing entry points to ../../build/project/project.egg-info/entry_points.txt
+[1.912s] writing requirements to ../../build/project/project.egg-info/requires.txt
+[1.912s] writing top-level names to ../../build/project/project.egg-info/top_level.txt
+[1.963s] reading manifest file '../../build/project/project.egg-info/SOURCES.txt'
+[1.965s] writing manifest file '../../build/project/project.egg-info/SOURCES.txt'
+[1.965s] running build
+[1.965s] running build_py
+[1.966s] copying project/fix_rotation.py -> /home/bok/ff_ws/build/project/build/lib/project
+[1.966s] copying project/temp.py -> /home/bok/ff_ws/build/project/build/lib/project
+[1.966s] copying project/control_tower_server.py -> /home/bok/ff_ws/build/project/build/lib/project
+[1.966s] copying project/subscription.py -> /home/bok/ff_ws/build/project/build/lib/project
+[1.967s] copying project/manipulator.py -> /home/bok/ff_ws/build/project/build/lib/project
+[1.967s] copying project/control_tower.py -> /home/bok/ff_ws/build/project/build/lib/project
+[1.967s] copying project/camera.py -> /home/bok/ff_ws/build/project/build/lib/project
+[1.968s] copying project/inverse_test.py -> /home/bok/ff_ws/build/project/build/lib/project
+[1.968s] copying project/nnnn.py -> /home/bok/ff_ws/build/project/build/lib/project
+[1.968s] copying project/__init__.py -> /home/bok/ff_ws/build/project/build/lib/project
+[1.969s] running install
+[1.975s] running install_lib
+[2.001s] running install_data
+[2.001s] copying resource/project -> /home/bok/ff_ws/install/project/share/ament_index/resource_index/packages
+[2.001s] copying package.xml -> /home/bok/ff_ws/install/project/share/project
+[2.002s] copying launch/project.launch.py -> /home/bok/ff_ws/install/project/share/project/launch
+[2.002s] running install_egg_info
+[2.028s] removing '/home/bok/ff_ws/install/project/lib/python3.10/site-packages/project-0.0.0-py3.10.egg-info' (and everything under it)
+[2.028s] Copying ../../build/project/project.egg-info to /home/bok/ff_ws/install/project/lib/python3.10/site-packages/project-0.0.0-py3.10.egg-info
+[2.029s] running install_scripts
+[2.253s] Installing camera script to /home/bok/ff_ws/install/project/lib/project
+[2.254s] Installing control_tower script to /home/bok/ff_ws/install/project/lib/project
+[2.254s] Installing fix_rotation script to /home/bok/ff_ws/install/project/lib/project
+[2.254s] Installing mani_control script to /home/bok/ff_ws/install/project/lib/project
+[2.254s] Installing server script to /home/bok/ff_ws/install/project/lib/project
+[2.255s] writing list of installed files to '/home/bok/ff_ws/build/project/install.log'
+[2.306s] Invoked command in '/home/bok/ff_ws/src/project' returned '0': PYTHONPATH=/home/bok/ff_ws/build/project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bok/ff_ws/install/project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/project build --build-base /home/bok/ff_ws/build/project/build install --record /home/bok/ff_ws/build/project/install.log --single-version-externally-managed install_data

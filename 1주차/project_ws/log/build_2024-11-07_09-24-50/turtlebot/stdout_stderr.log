@@ -1,0 +1,38 @@
+running egg_info
+writing ../../build/turtlebot/turtlebot.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtlebot/turtlebot.egg-info/dependency_links.txt
+writing entry points to ../../build/turtlebot/turtlebot.egg-info/entry_points.txt
+writing requirements to ../../build/turtlebot/turtlebot.egg-info/requires.txt
+writing top-level names to ../../build/turtlebot/turtlebot.egg-info/top_level.txt
+reading manifest file '../../build/turtlebot/turtlebot.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtlebot/turtlebot.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+creating /home/bok/project_ws/install/turtlebot/share/turtlebot/launch
+copying launch/menu_gui_launch.py -> /home/bok/project_ws/install/turtlebot/share/turtlebot/launch
+running install_egg_info
+removing '/home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/turtlebot/turtlebot.egg-info to /home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot-0.0.0-py3.10.egg-info
+running install_scripts
+Installing menu1_gui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+Installing menu2_gui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+Installing menu3_gui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+Installing menu4_gui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+Installing menu5_gui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+Installing menu6_gui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+Installing menu7_gui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+Installing menu8_gui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+Installing menu9_gui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+Installing menu_gui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+Installing menu_sub script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+Installing order_list script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+Installing pub_topic script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+Installing robotGui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+Installing send_goal script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+Installing sub_topic script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+Installing turtle3_gui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+Installing turtle3_gui2 script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+writing list of installed files to '/home/bok/project_ws/build/turtlebot/install.log'

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>order_msgs</name>
+  <version>0.0.0</version>
+  <description>Order messages and services</description>
+  <maintainer email="bok@todo.todo">rokey</maintainer>
+  <maintainer email="bok@todo.todo">sehwan</maintainer> <!-- 2번 패키지의 maintainer 추가 -->
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend> <!-- 2번 패키지의 buildtool_depend 추가 -->
+
+  <build_depend>rosidl_default_generators</build_depend> <!-- 이미 포함된 항목 -->
+  <build_depend>std_msgs</build_depend> <!-- 이미 포함된 항목 -->
+
+  <exec_depend>std_msgs</exec_depend> <!-- 이미 포함된 항목 -->
+  <exec_depend>builtin_interfaces</exec_depend> <!-- 2번 패키지의 exec_depend 추가 -->
+  <exec_depend>rosidl_default_runtime</exec_depend> <!-- 2번 패키지의 exec_depend 추가 -->
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group> <!-- 이미 포함된 항목 -->
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

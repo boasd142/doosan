@@ -1,0 +1,8 @@
+[console_scripts]
+app = bossbaby.app:main
+detection = bossbaby.detection:main
+move = bossbaby.move:main
+move_test = bossbaby.move_test:main
+subscriber = bossbaby.subscriber:main
+up_camera = bossbaby.up_camera:main
+up_flask = bossbaby.up_flask:main

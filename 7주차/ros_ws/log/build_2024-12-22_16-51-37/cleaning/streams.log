@@ -1,0 +1,25 @@
+[0.570s] Invoking command in '/home/rokey/Desktop/ros_ws/src/cleaning': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/rokey/Desktop/ros_ws/build/cleaning/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/Desktop/ros_ws/install/cleaning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cleaning build --build-base /home/rokey/Desktop/ros_ws/build/cleaning/build install --record /home/rokey/Desktop/ros_ws/build/cleaning/install.log --single-version-externally-managed install_data
+[0.800s] running egg_info
+[0.801s] writing ../../build/cleaning/cleaning.egg-info/PKG-INFO
+[0.801s] writing dependency_links to ../../build/cleaning/cleaning.egg-info/dependency_links.txt
+[0.801s] writing entry points to ../../build/cleaning/cleaning.egg-info/entry_points.txt
+[0.801s] writing requirements to ../../build/cleaning/cleaning.egg-info/requires.txt
+[0.801s] writing top-level names to ../../build/cleaning/cleaning.egg-info/top_level.txt
+[0.803s] reading manifest file '../../build/cleaning/cleaning.egg-info/SOURCES.txt'
+[0.805s] writing manifest file '../../build/cleaning/cleaning.egg-info/SOURCES.txt'
+[0.805s] running build
+[0.805s] running build_py
+[0.805s] copying cleaning/find.py -> /home/rokey/Desktop/ros_ws/build/cleaning/build/lib/cleaning
+[0.805s] running install
+[0.806s] running install_lib
+[0.806s] copying /home/rokey/Desktop/ros_ws/build/cleaning/build/lib/cleaning/find.py -> /home/rokey/Desktop/ros_ws/install/cleaning/lib/python3.10/site-packages/cleaning
+[0.807s] byte-compiling /home/rokey/Desktop/ros_ws/install/cleaning/lib/python3.10/site-packages/cleaning/find.py to find.cpython-310.pyc
+[0.809s] running install_data
+[0.809s] running install_egg_info
+[0.811s] removing '/home/rokey/Desktop/ros_ws/install/cleaning/lib/python3.10/site-packages/cleaning-0.0.0-py3.10.egg-info' (and everything under it)
+[0.811s] Copying ../../build/cleaning/cleaning.egg-info to /home/rokey/Desktop/ros_ws/install/cleaning/lib/python3.10/site-packages/cleaning-0.0.0-py3.10.egg-info
+[0.813s] running install_scripts
+[0.834s] Installing clean script to /home/rokey/Desktop/ros_ws/install/cleaning/lib/cleaning
+[0.834s] Installing find script to /home/rokey/Desktop/ros_ws/install/cleaning/lib/cleaning
+[0.835s] writing list of installed files to '/home/rokey/Desktop/ros_ws/build/cleaning/install.log'
+[0.856s] Invoked command in '/home/rokey/Desktop/ros_ws/src/cleaning' returned '0': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/rokey/Desktop/ros_ws/build/cleaning/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/Desktop/ros_ws/install/cleaning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cleaning build --build-base /home/rokey/Desktop/ros_ws/build/cleaning/build install --record /home/rokey/Desktop/ros_ws/build/cleaning/install.log --single-version-externally-managed install_data

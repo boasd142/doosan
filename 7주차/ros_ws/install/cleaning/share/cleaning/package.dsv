@@ -1,0 +1,6 @@
+source;share/cleaning/hook/pythonpath.ps1
+source;share/cleaning/hook/pythonpath.dsv
+source;share/cleaning/hook/pythonpath.sh
+source;share/cleaning/hook/ament_prefix_path.ps1
+source;share/cleaning/hook/ament_prefix_path.dsv
+source;share/cleaning/hook/ament_prefix_path.sh

@@ -1,0 +1,28 @@
+running egg_info
+writing ../../build/turtlebot/turtlebot.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtlebot/turtlebot.egg-info/dependency_links.txt
+writing entry points to ../../build/turtlebot/turtlebot.egg-info/entry_points.txt
+writing requirements to ../../build/turtlebot/turtlebot.egg-info/requires.txt
+writing top-level names to ../../build/turtlebot/turtlebot.egg-info/top_level.txt
+reading manifest file '../../build/turtlebot/turtlebot.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtlebot/turtlebot.egg-info/SOURCES.txt'
+running build
+running build_py
+copying turtlebot/menu_gui.py -> /home/bok/project_ws/build/turtlebot/build/lib/turtlebot
+running install
+running install_lib
+copying /home/bok/project_ws/build/turtlebot/build/lib/turtlebot/menu_gui.py -> /home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot
+byte-compiling /home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot/menu_gui.py to menu_gui.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/turtlebot/turtlebot.egg-info to /home/bok/project_ws/install/turtlebot/lib/python3.10/site-packages/turtlebot-0.0.0-py3.10.egg-info
+running install_scripts
+Installing menu_gui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+Installing menu_sub = turtlebot.menu_sub:mainorder_list script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+Installing pub_topic script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+Installing send_goal script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+Installing sub_topic script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+Installing turtle3_gui script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+Installing turtle3_gui2 script to /home/bok/project_ws/install/turtlebot/lib/turtlebot
+writing list of installed files to '/home/bok/project_ws/build/turtlebot/install.log'

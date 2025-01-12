@@ -1,0 +1,7 @@
+{
+  "package_name": "order_msgs",
+  "non_idl_tuples": [
+    "/home/bok/project_ws/src/order_msgs:action/RobotAction.action",
+    "/home/bok/project_ws/src/order_msgs:srv/Order.srv"
+  ]
+}

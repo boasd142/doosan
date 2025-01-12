@@ -1,0 +1,33 @@
+running develop
+/home/bok/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+running egg_info
+writing get_data.egg-info/PKG-INFO
+writing dependency_links to get_data.egg-info/dependency_links.txt
+writing entry points to get_data.egg-info/entry_points.txt
+writing requirements to get_data.egg-info/requires.txt
+writing top-level names to get_data.egg-info/top_level.txt
+reading manifest file 'get_data.egg-info/SOURCES.txt'
+writing manifest file 'get_data.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/bok/multitb_ws/install/get_data/lib/python3.10/site-packages/get-data.egg-link (link to .)
+Installing camera script to /home/bok/multitb_ws/install/get_data/lib/get_data
+Installing get_data script to /home/bok/multitb_ws/install/get_data/lib/get_data
+Installing qt_update script to /home/bok/multitb_ws/install/get_data/lib/get_data
+Installing thief_spawn script to /home/bok/multitb_ws/install/get_data/lib/get_data
+
+Installed /home/bok/multitb_ws/build/get_data
+running symlink_data
+symbolically linking /home/bok/multitb_ws/build/get_data/resource/get_data -> /home/bok/multitb_ws/install/get_data/share/ament_index/resource_index/packages
+symbolically linking /home/bok/multitb_ws/build/get_data/package.xml -> /home/bok/multitb_ws/install/get_data/share/get_data

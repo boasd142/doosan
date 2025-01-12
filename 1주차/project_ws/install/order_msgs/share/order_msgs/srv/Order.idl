@@ -1,0 +1,37 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from order_msgs/srv/Order.srv
+// generated code does not contain a copyright notice
+
+
+module order_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Order.srv")
+    struct Order_Request {
+      @verbatim (language="comment", text=
+        "테이블 번호")
+      string table_num;
+
+      @verbatim (language="comment", text=
+        "메뉴 항목")
+      string item;
+
+      @verbatim (language="comment", text=
+        "수량")
+      int32 quantity;
+
+      @verbatim (language="comment", text=
+        "가격")
+      int32 price;
+    };
+    struct Order_Response {
+      @verbatim (language="comment", text=
+        "처리 성공 여부")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "추가 메시지 (예: \"주문이 완료되었습니다.\")")
+      string message;
+    };
+  };
+};

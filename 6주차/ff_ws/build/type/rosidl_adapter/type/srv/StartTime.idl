@@ -1,0 +1,39 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from type/srv/StartTime.srv
+// generated code does not contain a copyright notice
+
+
+module type {
+  module srv {
+    @verbatim (language="comment", text=
+      "StartTime.srv")
+    struct StartTime_Request {
+      @verbatim (language="comment", text=
+        "요청 부분 (요청 메시지)" "\n"
+        "작업을 시작할 때 전달하는 값")
+      int32 start_value;
+
+      @verbatim (language="comment", text=
+        "작업 이름")
+      string job_list;
+
+      int32 constatus;
+
+      int32 datastatus;
+    };
+    struct StartTime_Response {
+      @verbatim (language="comment", text=
+        "응답 부분 (응답 메시지)" "\n"
+        "처리된 결과 값")
+      int32 result_value;
+
+      @verbatim (language="comment", text=
+        "작업 처리 상태 (예: SUCCESS, FAILURE 등)")
+      string status;
+
+      string conv;
+
+      string data;
+    };
+  };
+};

@@ -1,0 +1,44 @@
+[1.519s] Invoking command in '/home/bok/ff_ws/src/project': PYTHONPATH=/home/bok/ff_ws/build/project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bok/ff_ws/install/project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/project build --build-base /home/bok/ff_ws/build/project/build install --record /home/bok/ff_ws/build/project/install.log --single-version-externally-managed install_data
+[1.723s] /home/bok/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[1.723s]   warnings.warn(msg)
+[1.881s] running egg_info
+[1.906s] writing ../../build/project/project.egg-info/PKG-INFO
+[1.907s] writing dependency_links to ../../build/project/project.egg-info/dependency_links.txt
+[1.907s] writing entry points to ../../build/project/project.egg-info/entry_points.txt
+[1.907s] writing requirements to ../../build/project/project.egg-info/requires.txt
+[1.908s] writing top-level names to ../../build/project/project.egg-info/top_level.txt
+[1.960s] reading manifest file '../../build/project/project.egg-info/SOURCES.txt'
+[1.962s] writing manifest file '../../build/project/project.egg-info/SOURCES.txt'
+[1.963s] running build
+[1.963s] running build_py
+[1.963s] copying project/fix_rotation.py -> /home/bok/ff_ws/build/project/build/lib/project
+[1.963s] copying project/temp.py -> /home/bok/ff_ws/build/project/build/lib/project
+[1.963s] copying project/control_tower_server.py -> /home/bok/ff_ws/build/project/build/lib/project
+[1.964s] copying project/subscription.py -> /home/bok/ff_ws/build/project/build/lib/project
+[1.964s] copying project/manipulator.py -> /home/bok/ff_ws/build/project/build/lib/project
+[1.964s] copying project/control_tower.py -> /home/bok/ff_ws/build/project/build/lib/project
+[1.964s] copying project/camera.py -> /home/bok/ff_ws/build/project/build/lib/project
+[1.965s] copying project/inverse_test.py -> /home/bok/ff_ws/build/project/build/lib/project
+[1.965s] copying project/nnnn.py -> /home/bok/ff_ws/build/project/build/lib/project
+[1.965s] copying project/__init__.py -> /home/bok/ff_ws/build/project/build/lib/project
+[1.966s] running install
+[1.975s] running install_lib
+[2.002s] copying /home/bok/ff_ws/build/project/build/lib/project/subscription.py -> /home/bok/ff_ws/install/project/lib/python3.10/site-packages/project
+[2.003s] copying /home/bok/ff_ws/build/project/build/lib/project/manipulator.py -> /home/bok/ff_ws/install/project/lib/python3.10/site-packages/project
+[2.004s] copying /home/bok/ff_ws/build/project/build/lib/project/camera.py -> /home/bok/ff_ws/install/project/lib/python3.10/site-packages/project
+[2.004s] byte-compiling /home/bok/ff_ws/install/project/lib/python3.10/site-packages/project/subscription.py to subscription.cpython-310.pyc
+[2.007s] byte-compiling /home/bok/ff_ws/install/project/lib/python3.10/site-packages/project/manipulator.py to manipulator.cpython-310.pyc
+[2.010s] byte-compiling /home/bok/ff_ws/install/project/lib/python3.10/site-packages/project/camera.py to camera.cpython-310.pyc
+[2.012s] running install_data
+[2.013s] copying resource/project -> /home/bok/ff_ws/install/project/share/ament_index/resource_index/packages
+[2.013s] copying package.xml -> /home/bok/ff_ws/install/project/share/project
+[2.013s] running install_egg_info
+[2.042s] removing '/home/bok/ff_ws/install/project/lib/python3.10/site-packages/project-0.0.0-py3.10.egg-info' (and everything under it)
+[2.042s] Copying ../../build/project/project.egg-info to /home/bok/ff_ws/install/project/lib/python3.10/site-packages/project-0.0.0-py3.10.egg-info
+[2.043s] running install_scripts
+[2.243s] Installing camera script to /home/bok/ff_ws/install/project/lib/project
+[2.245s] Installing control_tower script to /home/bok/ff_ws/install/project/lib/project
+[2.245s] Installing mani_control script to /home/bok/ff_ws/install/project/lib/project
+[2.245s] Installing server script to /home/bok/ff_ws/install/project/lib/project
+[2.245s] writing list of installed files to '/home/bok/ff_ws/build/project/install.log'
+[2.293s] Invoked command in '/home/bok/ff_ws/src/project' returned '0': PYTHONPATH=/home/bok/ff_ws/build/project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bok/ff_ws/install/project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/project build --build-base /home/bok/ff_ws/build/project/build install --record /home/bok/ff_ws/build/project/install.log --single-version-externally-managed install_data
